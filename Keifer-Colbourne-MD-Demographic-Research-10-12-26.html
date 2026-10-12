@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>
+/* Theme: follows the viewer's system by default; the toggle saves an override
+   (shared by every report on this site). Sets data-theme on <html>. */
+(function(){var k='goal-theme',r=document.documentElement,m=window.matchMedia('(prefers-color-scheme: dark)');
+function saved(){try{var s=localStorage.getItem(k);return s==='light'||s==='dark'?s:null;}catch(e){return null;}}
+function sys(){return m.matches?'dark':'light';}
+r.setAttribute('data-theme',saved()||sys());
+var onSys=function(){if(!saved())r.setAttribute('data-theme',sys());};
+if(m.addEventListener)m.addEventListener('change',onSys);else if(m.addListener)m.addListener(onSys);
+window.goalToggleTheme=function(){var n=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',n);
+try{if(n===sys())localStorage.removeItem(k);else localStorage.setItem(k,n);}catch(e){}};})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keifer &amp; Colbourne Insurance · Maryland Demographic Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#057BE5; --blue-hover:#0C6EC5; --sky:#308ED6; --mint:#3BEECA; --mint-d:#0fae8f;
+  --navy:#00172D; --navy-2:#062c4e; --navy-deep:#001020;
+  --ink:#0F1B2D; --body:#2B3442; --muted:#6A7482;
+  --white:#fff; --off:#F8FAFC; --gray:#EFF2F7; --divider:#EDF1F5; --line:#E2E8F0;
+  --success:#2BBF7A; --warning:#F0A93B; --error:#E5484D;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth;}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--gray);color:var(--body);line-height:1.55;}
+.shell{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:288px 1fr;min-height:100vh;background:var(--white);}
+.side{background:var(--navy);color:#cfe0ee;padding:34px 30px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;}
+.backbtn{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;margin-bottom:24px;font-size:12.5px;font-weight:600;color:#cfe0ee;text-decoration:none;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);padding:7px 13px 7px 11px;border-radius:9px;transition:background .15s,border-color .15s,color .15s;}
+  .backbtn svg{width:14px;height:14px;flex-shrink:0;}
+.backbtn:hover{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.3);color:#fff;}
+.side .logo{height:30px;align-self:flex-start;margin-bottom:38px;}
+.side .eb{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#2D90EE;}
+.side h1{font-size:27px;font-weight:900;color:#fff;line-height:1.08;letter-spacing:-.02em;margin:10px 0 14px;}
+.side .who{font-size:13px;color:#a7c2da;line-height:1.6;}
+.side .who b{color:#fff;font-weight:600;}
+.side nav{margin-top:38px;display:flex;flex-direction:column;gap:2px;}
+.side nav a{font-size:13.5px;color:#9fbcd6;text-decoration:none;padding:9px 12px;border-radius:8px;display:flex;align-items:center;gap:11px;transition:background .15s,color .15s;}
+.side nav a:hover{background:rgba(255,255,255,.06);color:#fff;text-decoration:none;}
+.side nav a .dot{width:6px;height:6px;border-radius:50%;background:#3a6386;flex-shrink:0;}
+.side nav a:hover .dot{background:var(--mint);}
+.side .foot{margin-top:auto;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);font-size:11px;color:#6f93b3;line-height:1.6;}
+.main{padding:46px 52px 60px;}
+.block{margin-bottom:46px;scroll-margin-top:24px;}
+.bhead{display:flex;align-items:center;gap:12px;margin-bottom:20px;}
+.bhead .ix{font-size:12px;font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums;background:#E6F1FD;padding:4px 9px;border-radius:6px;}
+.bhead h2{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:-.01em;}
+.bhead p{font-size:13.5px;color:var(--muted);margin-top:3px;}
+.exec{background:var(--off);border:1px solid var(--line);border-radius:14px;padding:24px 28px;margin-bottom:46px;}
+.exec p{font-size:15.5px;line-height:1.62;color:var(--body);}
+.exec p b{color:var(--ink);font-weight:700;}
+.kgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.kc{border:1px solid var(--line);border-radius:12px;padding:20px;background:var(--white);}
+.kc .v{font-size:26px;font-weight:900;color:var(--ink);letter-spacing:-.02em;line-height:1;}
+.kc .k{font-size:12.5px;color:var(--body);font-weight:600;margin-top:9px;}
+.kc .d{font-size:11.5px;color:var(--muted);margin-top:2px;}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+.split3{display:grid;grid-template-columns:300px 1fr;gap:18px;}
+.splitm{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;}
+.panel{border:1px solid var(--line);border-radius:14px;padding:24px;background:var(--white);}
+.panel .pt{font-size:13px;font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.04em;margin-bottom:18px;}
+.cfg{list-style:none;}
+.cfg li{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--divider);font-size:13.5px;}
+.cfg li:last-child{border-bottom:none;}
+.cfg .ck{flex-shrink:0;width:126px;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding-top:2px;}
+.cfg .cv{color:var(--body);}
+.cfg .cv b{color:var(--ink);font-weight:700;}
+.tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:6px;}
+.tag.blue{background:#E3F0FD;color:var(--blue-hover);} .tag.mint{background:#D6F7EE;color:var(--mint-d);} .tag.amber{background:#FDF0DA;color:#9a6712;}
+.tag.red{background:#FBE2E3;color:#9E1B22;} .tag.gold{background:#FFF3D6;color:#8a6207;} .tag.green{background:#DCF5EA;color:#1b7a4e;}
+.mtable{width:100%;border-collapse:collapse;}
+.mtable th{font-size:10.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;text-align:left;padding:0 10px 12px 0;border-bottom:1px solid var(--line);}
+.mtable th.r,.mtable td.r{text-align:right;}
+.mtable td{padding:11px 10px 11px 0;border-bottom:1px solid var(--divider);font-size:13px;color:var(--body);vertical-align:top;font-variant-numeric:tabular-nums;}
+.mtable tr:last-child td{border-bottom:none;}
+.mtable .nm{font-weight:700;color:var(--ink);}
+.mtable .sub{font-size:11px;color:var(--muted);}
+.fpanel{border:1px solid var(--line);border-radius:14px;padding:26px 28px;background:var(--white);}
+.fstep{display:flex;align-items:center;gap:16px;margin-bottom:11px;}
+.fstep .lab{width:170px;flex-shrink:0;text-align:right;font-size:12.5px;font-weight:600;color:var(--ink);}
+.fstep .lab small{display:block;font-weight:500;color:var(--muted);font-size:10.5px;}
+.fbar{flex:1;height:30px;background:var(--gray);border-radius:7px;overflow:hidden;}
+.fbar i{display:flex;align-items:center;height:100%;border-radius:7px;width:0;color:#fff;font-weight:800;font-size:12.5px;padding-left:11px;transition:width 1.1s cubic-bezier(.2,.7,.2,1);white-space:nowrap;}
+.fbar i.dk{color:#0f3557;}
+.fstep .pct{width:20px;flex-shrink:0;}
+.fnote{font-size:13px;color:var(--muted);line-height:1.6;margin-top:18px;padding-top:16px;border-top:1px solid var(--divider);}
+.fnote b{color:var(--ink);font-weight:700;}
+.mapwrap{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--white);}
+.maplegend{display:flex;flex-wrap:wrap;gap:14px;margin-top:16px;padding-top:14px;border-top:1px solid var(--divider);font-size:12px;color:var(--body);}
+.maplegend .li{display:flex;align-items:center;gap:7px;font-weight:600;}
+.maplegend .sw{width:11px;height:11px;border-radius:50%;flex-shrink:0;}
+@media print{
+  body{background:#fff;} .shell{display:block;max-width:none;}
+  .side{position:static;height:auto;flex-direction:row;align-items:center;justify-content:space-between;padding:20px 30px;}
+  .side nav,.side .foot,.side .backbtn{display:none;} .side h1{margin:0;}
+  .kc,.fpanel,.panel,.mapwrap{break-inside:avoid;}
+}
+@media(max-width:900px){
+  .shell{grid-template-columns:1fr;}
+  .side{position:static;height:auto;}
+  .side nav{display:none;}
+  .main{padding:32px 22px;}
+  .kgrid{grid-template-columns:1fr 1fr;}
+  .split,.split3,.splitm{grid-template-columns:1fr;}
+}
+@media(max-width:560px){ .kgrid{grid-template-columns:1fr;} .fstep .lab{width:110px;} }
+
+/* ---------- Theme toggle (shared across reports) ---------- */
+:root[data-theme="light"]{color-scheme:light;} :root[data-theme="dark"]{color-scheme:dark;}
+.theme-toggle{position:fixed;top:16px;right:16px;z-index:1000;width:40px;height:40px;border-radius:9999px;display:flex;align-items:center;justify-content:center;cursor:pointer;
+  background:#ffffff;color:#334155;border:1px solid #dbe2ec;box-shadow:0 2px 8px rgba(15,23,42,.12);transition:background .15s,color .15s,border-color .15s;}
+.theme-toggle:hover{color:#057be5;border-color:#94a3b8;}
+.theme-toggle:focus-visible{outline:2px solid #057be5;outline-offset:2px;}
+.theme-toggle svg{width:18px;height:18px;}
+.theme-toggle .i-sun{display:none;}
+:root[data-theme="dark"] .theme-toggle{background:#151a1e;color:#e2e8f0;border-color:#334155;box-shadow:0 2px 10px rgba(0,0,0,.4);}
+:root[data-theme="dark"] .theme-toggle:hover{color:#339fff;border-color:#64748b;}
+:root[data-theme="dark"] .theme-toggle .i-sun{display:block;} :root[data-theme="dark"] .theme-toggle .i-moon{display:none;}
+@media print{ .theme-toggle{display:none !important;} }
+
+/* ---------- Dark mode (screen only; print stays light) ---------- */
+@media screen{
+:root[data-theme="dark"]{
+  --ink:#F1F5F9; --body:#CBD5E1; --muted:#94A3B8;
+  --white:#0d1117; --off:#151a1e; --gray:#1b2229; --divider:#1e293b; --line:#263241;
+  --blue-hover:#5cb0ff; --mint-d:#3BEECA;
+}
+:root[data-theme="dark"] body{background:#080c10;}
+:root[data-theme="dark"] .bhead .ix{background:rgba(5,123,229,.16);}
+:root[data-theme="dark"] .tag.blue{background:rgba(5,123,229,.16);}
+:root[data-theme="dark"] .tag.mint{background:rgba(59,238,202,.12);}
+:root[data-theme="dark"] .tag.amber{background:rgba(240,169,59,.14);color:#f2b65a;}
+:root[data-theme="dark"] .tag.red{background:rgba(229,72,77,.14);color:#ff8a8f;}
+:root[data-theme="dark"] .tag.gold{background:rgba(240,169,59,.14);color:#f2b65a;}
+:root[data-theme="dark"] .tag.green{background:rgba(43,191,122,.13);color:#4ade80;}
+:root[data-theme="dark"] .main [fill="#0F1B2D"]{fill:#e2e8f0;}
+:root[data-theme="dark"] .main [fill="#E3E8EF"]{fill:#5b6b80;}
+:root[data-theme="dark"] .main [stroke="#fff"]{stroke:#0d1117;}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <aside class="side">
+    <a class="backbtn" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>All reports</a>
+    <svg class="logo" viewBox="0 0 501.8 135" role="img" aria-label="GOAL" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" fill-rule="evenodd" d="M60.4 134.9C59.9 134.8 58.3 134.7 56.8 134.6C37.6 133 21.1 123.6 11.2 108.5C5.3 99.5 2.1 90.3 0.7 77.9C0.2 73.6 0.2 62 0.7 57.7C1.8 47.8 4.2 39.8 8.2 32.2C11.4 26.3 14.6 22 19.4 17.3C29.5 7.5 42.8 1.7 58 0.4C61.5 0.1 70.6 0.3 73.8 0.7C91.4 3 105.9 11.5 114.4 24.3C116.3 27.1 118.2 30.9 119.3 33.7C120.2 36.1 121.3 40.2 121.6 42.5C121.7 43.4 121.8 44.3 121.9 44.7L122 45.2L103.9 45.2L85.9 45.2L85.6 44.2C85.5 43.7 84.9 42.4 84.4 41.2C83.6 39.6 83 38.8 81.8 37.5C79.9 35.5 78.8 34.7 76.7 33.6C73.4 32 69.6 31.2 65 31.2C49.4 31.2 39.6 41.3 37.3 59.4C36.6 64.7 36.7 71.9 37.5 77.1C39 87.3 42.8 94.6 48.7 99.1C54.3 103.3 62 104.8 71.1 103.5C80.3 102.2 86.3 97.6 88.3 90.5C88.8 88.8 89.2 85.7 89.1 85.4C89 85.3 83.6 85.2 77.1 85.2L65.2 85.2L65.2 72.5L65.2 59.8L94.3 59.8L123.4 59.8L123.3 72.7C123.3 86.3 123.2 86.8 122.2 92.1C119 108.3 109 121.3 94.3 128.5C87.5 131.8 80.7 133.7 72.5 134.6C70.4 134.8 62 135 60.4 134.9ZM265.2 133.1C265.2 133 286.7 67.7 306.2 8.6L308.4 2L332.9 2L357.3 2.1L378.9 67.6L400.5 133.1L381.3 133.2C366 133.2 362.1 133.2 362 133C362 132.8 360.2 127.2 358.2 120.4L354.5 108.1L332.8 108L311.2 108L311 108.7C310.9 109.2 309.2 114.8 307.2 121.3L303.7 133.1L284.4 133.2C273.9 133.2 265.2 133.1 265.2 133.1ZM413 67.6L413 2L430.9 2L448.8 2L448.8 53.2L448.8 104.4L475.3 104.4L501.8 104.4L501.8 118.8L501.8 133.2L457.4 133.2L413
+133.2L413 67.6ZM346.3 81C346.2 80.7 343.3 71 339.8 59.4C336.3 47.8 333.3 38.2 333.2 38.1C332.5 37.5 332.5 37.7 325.9 59.5C322.3 71.3 319.4 81 319.4 81.2C319.4 81.3 322.2 81.4 332.9 81.4L346.4 81.4L346.3 81Z"/><path fill="#057BE5" fill-rule="evenodd" d="M197.6 133.5C194.1 133.2 187.9 132.2 187.7 131.9C187.6 131.8 191.7 119.4 191.9 119.2C191.9 119.2 192.8 119.3 193.8 119.5C201.9 120.8 210.5 120.2 218.5 117.5C226.6 114.8 233.4 110.7 239.3 104.7C246 97.9 250.6 89.8 253 80.5C254.2 75.6 254.5 73.4 254.5 67.8C254.5 61.4 253.9 57.4 252.1 51.8C249.5 43.7 245.3 36.9 239.2 30.8C235.5 27.1 231.5 24.1 227.3 21.8C226.4 21.3 225.7 20.9 225.6 20.9C225.6 20.8 229.1 10.2 229.8 8.4L230 8L231.6 8.8C244.8 15.4 255.5 26.4 261.8 39.7C264.6 45.6 266.4 51.5 267.4 58.3C268 61.9 268.2 69.7 267.8 73.6C266.4 89.5 259.5 103.9 248.1 115C244.9 118.1 242.4 120.1 238.5 122.7C235.2 124.9 229.8 127.7 226.1 129.2C221.5 131 215.9 132.4 210.6 133.1C208.2 133.4 199.7 133.7 197.6 133.5ZM171.5 126C154.2 116.9 141.8 100.5 137.8 81.5C136.2 73.9 136 65.6 137.1 57.8C139.7 40.4 149.7 24.3 164.3 13.9C172.6 8 182.2 4.2 192.7 2.6C196.3 2 204.4 1.8 208.1 2.2C210.6 2.4 216.1 3.3 216.3 3.5C216.4 3.5 212.2 16 212.1 16.2C212 16.2 210.9 16.1 209.7 15.9C208.4 15.7 205.5 15.5 203.4 15.5C185.8 15 169.1 23.5 159 38.1C154.4 44.9 151.5 52.4 150.3 60.9C149.8 64.2 149.8 71.3 150.3 74.7C151.9 86.1 156.8 96.1 164.7 104.2C168.5 108.1 172.6 111.3 177 113.6C177.8 114.1 178.4 114.6 178.3 114.7C178.3 114.8 177.3 117.7 176.2 121C175 124.4 174
+127.2 173.9 127.2C173.8 127.2 172.7 126.7 171.5 126ZM198.8 106.8C197.6 106.7 196.5 106.5 196.4 106.5C196.4 106.4 197.2 103.7 198.3 100.5L200.3 94.6L202.9 94.5C215.5 94.1 225.8 85.5 228.5 73C229 70.6 229 65 228.5 62.7C227.8 59 226.4 55.7 224.5 52.8C223.2 51 219.7 47.3 218.2 46.2C217.6 45.9 217.2 45.5 217.2 45.4C217.2 45 221.2 33.7 221.3 33.7C221.7 33.5 225.6 36.3 227.7 38C233.5 43 238.1 50.2 240.1 57.7C243.6 71.3 239.8 85.6 229.9 95.5C221.7 103.6 210.5 107.7 198.8 106.8ZM180.7 100.4C173.9 95.9 169 89.9 165.9 82.5C161.8 72.4 162.2 60.6 167 50.7C172.6 39.1 183.3 31.2 196 29.1C198.5 28.7 203.3 28.5 205.6 28.8C206.6 28.9 207.5 29 207.5 29.1C207.6 29.1 204.5 38.7 203.7 40.6C203.6 40.9 203.1 41 200.9 41.1C194.1 41.4 188.2 44 183.3 48.9C179.5 52.7 177 57.3 175.9 62.8C175.4 65.1 175.4 70.2 175.9 72.7C177 78.6 180 83.8 184.4 87.7C185 88.3 185.8 88.9 186.2 89.2C186.5 89.4 186.8 89.7 186.8 89.8C186.8 90.1 183 101.1 182.8 101.5C182.7 101.7 182 101.3 180.7 100.4ZM199 80C192.5 78.3 188.5 71.7 189.9 65C190.6 61.5 193.2 58.1 196.5 56.5C198.4 55.5 199.9 55.2 202.2 55.2C205.9 55.2 208.6 56.3 211.1 58.9C212.9 60.7 213.9 62.5 214.5 64.8C215 66.7 214.8 70 214.1 72C212 78.1 205.3 81.6 199 80Z"/></svg>
+    <div class="eb">Market Research</div>
+    <h1>Maryland by ZIP Code</h1>
+    <div class="who">Prepared for <b>Jack</b><br>Keifer &amp; Colbourne Insurance<br>Research &middot; October 12, 2026</div>
+    <nav>
+      <a href="#s1"><span class="dot"></span>Statewide profile</a>
+      <a href="#s2"><span class="dot"></span>Household income</a>
+      <a href="#s3"><span class="dot"></span>Homeownership</a>
+      <a href="#s4"><span class="dot"></span>Within-county spread</a>
+      <a href="#s5"><span class="dot"></span>Prime-target ZIPs</a>
+      <a href="#s6"><span class="dot"></span>Household screens</a>
+      <a href="#s7"><span class="dot"></span>Your lead footprint</a>
+      <a href="#s8"><span class="dot"></span>Data &amp; files</a>
+    </nav>
+    <div class="foot">GOAL Performance Marketing<br>All conversion metrics based on Leads, not Clicks.</div>
+  </aside>
+
+  <main class="main">
+
+    <div class="exec">
+      <p>Demographic profile of all <b>470 populated Maryland ZIP codes</b>: household income, homeownership, home values, age and vehicles, built from the U.S. Census Bureau&#39;s <b>ACS 2020&ndash;2024</b> five-year estimates (released December 2025), the most current ZIP-level data published. Section 07 lines the state up against the 257 branded leads GOAL delivered to Maryland ZIPs from July 13 to October 12. The companion spreadsheet carries every ZIP and every column; the flood and hurricane report covers the risk geography.</p>
+    </div>
+
+    <section class="block" id="s1">
+      <div class="bhead"><span class="ix">01</span><div><h2>Statewide profile</h2><p>ACS 2020&ndash;2024 five-year estimates</p></div></div>
+      <div class="kgrid">
+        <div class="kc"><div class="v">470</div><div class="k">Populated ZIP codes</div><div class="d">6.21M residents</div></div>
+        <div class="kc"><div class="v">2.36M</div><div class="k">Households</div><div class="d">2.56M total housing units</div></div>
+        <div class="kc"><div class="v">$106,334</div><div class="k">Median household income</div><div class="d">Household-weighted across ZIPs</div></div>
+        <div class="kc"><div class="v">67.6%</div><div class="k">Homeownership rate</div><div class="d">1.60M owner-occupied homes</div></div>
+        <div class="kc"><div class="v">$429,600</div><div class="k">Median home value</div><div class="d">Owner-occupied homes</div></div>
+        <div class="kc"><div class="v">57.7%</div><div class="k">Households with 2+ vehicles</div><div class="d">8.8% have no vehicle</div></div>
+      </div>
+    </section>
+
+    <section class="block" id="s2">
+      <div class="bhead"><span class="ix">02</span><div><h2>Household income by ZIP</h2><p>Median household income, all ZIPs</p></div></div>
+      <div class="splitm" style="margin-bottom:18px;">
+        <div class="mapwrap">
+          <svg viewBox="0 0 640 339" role="img" style="width:100%;height:auto;display:block;">
+<path d="M384.3,6.9L414.8,6.9L460.7,6.8L461.7,6.8L475.2,6.8L523.1,6.8L523.1,20.0L526.1,68.3L527.1,82.7L527.6,91.8L529.1,110.2L532.6,166.0L534.6,200.8L535.6,214.2L536.6,232.1L585.5,233.5L626.0,233.6L625.5,240.2L621.0,256.3L618.5,258.6L608.5,291.0L599.5,309.4L546.1,315.2L543.1,323.7L540.1,323.1L533.6,318.5L524.1,319.1L513.1,328.9L508.6,329.0L508.1,318.8L511.6,308.0L520.1,303.7L511.6,303.4L512.6,296.5L518.1,290.4L507.6,289.0L501.7,294.1L499.7,289.8L502.2,280.9L515.1,276.7L512.6,271.7L507.6,272.8L507.1,261.1L513.1,251.4L505.6,253.7L502.2,260.9L502.2,270.1L498.2,270.3L492.7,258.5L498.2,257.1L497.7,249.0L493.7,247.4L491.7,255.0L487.2,260.0L490.2,264.2L485.7,273.7L483.7,269.2L475.2,272.8L470.7,270.9L462.7,258.2L458.2,256.2L459.2,249.6L447.2,226.4L457.2,224.3L459.7,218.3L455.7,219.4L451.2,211.6L455.2,205.4L461.2,202.0L464.2,205.9L470.2,201.9L470.7,207.4L481.7,208.8L488.2,214.8L489.7,212.0L482.2,202.7L473.7,200.5L469.7,194.1L466.2,194.5L458.2,182.7L455.7,187.0L449.7,183.9L449.2,193.0L445.7,191.8L447.2,176.3L456.2,162.2L463.2,169.1L467.2,167.5L466.2,162.3L465.7,148.5L461.7,145.9L453.2,153.1L447.2,152.5L447.7,159.9L441.7,162.5L443.7,146.5L451.7,131.0L455.2,138.9L465.7,140.5L471.2,135.8L468.2,127.5L471.7,118.9L465.7,120.4L464.2,128.4L466.2,133.2L460.2,130.6L461.7,120.9L458.7,111.9L455.2,109.7L463.2,88.8L469.2,82.4L468.2,78.7L475.2,74.9L478.7,69.2L490.7,71.1L493.7,68.4L488.2,66.5L497.2,55.7L492.2,54.8L498.2,36.1L483.2,38.7L477.7,47.1L483.7,50.8L485.7,55.7L479.7,57.9L462.7,72.7L459.2,68.0L462.7,59.7L458.7,55.4L458.7,62.2L454.2,70.0L458.2,75.2L454.7,82.3L450.2,66.1L444.2,66.1L447.2,81.2L443.2,80.0L440.2,86.4L446.2,89.8L435.7,96.5L432.2,100.8L425.7,99.6L420.3,92.7L413.8,88.5L415.3,95.6L419.8,98.8L420.8,103.9L434.2,112.2L435.2,122.4L432.7,126.3L439.2,133.6L427.7,140.5L431.2,146.2L429.7,152.3L425.2,151.7L421.8,160.2L424.7,168.3L416.3,177.2L420.3,186.9L419.8,193.1L422.8,204.3L421.8,218.0L425.2,228.0L436.2,240.2L440.2,249.7L435.7,256.7L428.2,256.3L430.7,261.9L437.7,258.6L441.7,260.8L438.2,268.0L440.2,275.4L449.2,289.5L446.7,292.8L449.2,307.7L444.7,304.8L439.2,295.9L435.2,295.3L432.7,285.5L428.7,286.9L427.7,295.6L424.2,289.8L420.3,290.2L417.8,282.9L411.8,276.0L400.3,272.4L382.8,272.0L378.8,252.2L375.8,250.8L372.8,255.0L377.8,265.4L376.8,268.8L365.8,262.2L364.8,257.0L358.3,252.2L352.3,234.7L342.4,241.5L325.9,250.1L319.9,245.9L316.4,228.3L321.9,215.7L329.4,207.0L339.4,202.4L336.9,200.8L336.4,193.9L342.9,188.2L348.8,185.9L349.3,174.0L349.3,172.9L367.3,154.8L354.3,141.9L348.8,136.7L338.4,147.4L333.9,141.8L323.9,140.8L319.9,138.2L320.4,130.9L308.9,125.4L290.4,122.1L287.4,116.2L282.4,114.2L282.9,105.3L290.9,96.4L285.9,90.8L279.4,88.4L276.4,81.5L268.9,81.6L260.5,77.8L254.5,78.3L249.5,76.1L252.5,66.5L250.0,59.9L245.5,58.0L244.0,49.7L240.0,47.4L240.0,41.1L235.0,43.9L231.0,36.1L239.0,33.8L239.0,28.1L232.0,28.7L223.5,25.2L214.5,28.3L212.5,25.0L202.0,14.6L190.0,11.5L178.6,25.2L169.1,22.1L162.6,23.4L162.1,27.0L155.1,25.3L160.6,30.3L154.1,30.1L157.6,37.6L150.6,43.4L136.6,42.8L133.1,40.1L124.1,40.2L114.6,35.0L113.6,31.0L107.1,28.3L113.6,26.1L107.1,24.6L88.2,48.8L82.7,57.1L67.2,51.0L63.2,51.3L56.7,62.8L41.2,72.0L38.7,76.9L36.2,82.3L30.2,82.1L13.8,97.9L8.8,99.0L10.3,6.9L21.7,6.9L86.7,6.6L103.1,6.6L162.6,6.6L168.1,6.6L202.0,6.6L289.4,7.1L290.9,7.1L324.4,7.1L354.8,7.1L384.3,6.9M487.2,292.7L481.2,293.8L481.7,279.8L487.2,277.8L490.7,282.4L489.7,287.9L493.2,300.5L485.7,297.3L487.2,292.7M438.7,176.6L441.2,173.5L443.7,180.6L438.7,176.6M494.7,322.6L487.7,322.6L487.2,311.6L491.2,307.3L496.7,313.4L494.7,322.6Z" fill="#EFF2F7" fill-opacity="0.55" stroke="#C7D6E4" stroke-width="1"/><path d="M585.5,233.5L589.0,242.1L587.0,246.2L590.5,251.0L581.1,262.5L547.6,264.5L540.6,260.9L532.6,266.6L528.6,263.4L528.6,263.6L528.6,263.6M169.1,22.1L168.1,15.1L172.1,12.0L168.1,6.6M67.2,51.0L86.7,6.6M534.6,200.8L527.1,191.8L522.1,193.5L516.6,188.5L501.7,193.9L491.7,184.1L498.7,175.1L508.1,169.2L501.2,156.3L501.2,150.2L502.2,139.9L509.1,132.4L515.1,122.9L516.6,116.3L529.1,110.2M513.1,251.4L513.1,245.8L518.6,227.8L527.6,222.6L535.6,214.2M289.4,7.1L283.9,13.5L286.4,14.9L282.4,21.4L275.4,25.0L271.4,39.2L267.9,45.1L268.9,51.9L260.5,77.8M528.6,263.4L512.6,271.7M375.8,250.8L372.3,246.2L379.8,236.7L386.3,223.4L400.3,225.1L402.8,231.2L409.3,238.4L424.2,247.8L428.2,256.3M384.3,6.9L373.3,46.2L369.8,54.0L371.3,73.2L358.8,70.7L351.3,73.0L340.9,69.8L331.4,72.4L334.4,60.9L338.9,53.6L339.4,46.8L327.4,33.0L314.9,27.8L311.4,21.5L316.4,22.7L318.4,16.9L324.9,10.9L324.4,7.1M489.7,287.9L487.2,292.7M489.7,212.0L495.2,208.5L496.2,202.7L501.7,193.9M493.7,68.4L509.6,71.2L518.6,67.5L526.1,68.3M527.6,91.8L520.6,92.5L516.1,89.6L502.2,93.1L492.7,92.8L484.2,101.4L487.2,106.6L477.7,116.6L471.7,118.9M290.9,96.4L331.4,72.6L328.9,74.9L336.9,87.8L344.8,90.4L353.3,98.8L355.3,106.0L370.3,112.3L355.8,137.0L354.3,141.9M466.2,162.3L471.2,157.3L479.7,156.6L477.7,151.1L481.2,145.6L501.2,150.2M419.8,98.8L412.8,98.7L407.8,93.3L394.8,86.1L394.8,69.2L420.3,69.2L420.3,92.7M483.2,38.7L473.2,25.0L469.7,17.8L464.2,13.1L461.7,6.8M331.4,72.6L331.4,72.4M371.3,73.2L377.8,80.1L385.8,83.0L383.3,88.1L396.8,97.4L390.3,103.6L384.3,112.8L376.8,117.2L370.3,112.3M400.3,225.1L399.8,218.6L400.3,204.0L396.3,187.3L398.3,180.6L407.3,177.2L407.3,184.6L420.3,186.9M342.9,188.2L348.3,204.2L351.8,198.8L359.3,196.2L373.8,196.7L389.8,203.9L390.8,214.5L399.8,218.6M547.6,264.5L548.6,269.8L557.1,282.3L552.6,288.6L557.6,298.2L552.1,302.1L547.1,301.3L541.6,309.0L546.1,315.2M396.8,97.4L407.8,93.3M398.3,180.6L396.3,173.5L397.8,160.8L400.8,152.3L397.8,149.1L396.8,138.5L389.3,129.5L377.3,122.9L376.8,117.2M444.2,66.1L440.2,53.6L433.2,46.1L419.8,38.5L415.3,26.0L414.8,6.9" fill="none" stroke="#C7D6E4" stroke-width="0.4" stroke-opacity="0.8"/>
+<g fill="#E3E8EF" fill-opacity="0.6" stroke="#fff" stroke-width="0.4"><circle cx="350" cy="109" r="2.0"/><circle cx="382" cy="256" r="1.9"/><circle cx="376" cy="268" r="1.8"/><circle cx="264" cy="60" r="1.8"/><circle cx="594" cy="274" r="1.7"/><circle cx="452" cy="174" r="1.7"/><circle cx="508" cy="270" r="1.6"/><circle cx="447" cy="303" r="1.6"/><circle cx="440" cy="295" r="1.6"/><circle cx="447" cy="287" r="1.6"/><circle cx="470" cy="230" r="1.5"/><circle cx="418" cy="241" r="1.5"/><circle cx="443" cy="179" r="1.5"/><circle cx="508" cy="262" r="1.5"/><circle cx="388" cy="272" r="1.5"/><circle cx="361" cy="239" r="1.4"/><circle cx="432" cy="276" r="1.4"/><circle cx="82" cy="21" r="1.4"/><circle cx="481" cy="263" r="1.3"/><circle cx="484" cy="253" r="1.3"/><circle cx="461" cy="223" r="1.3"/><circle cx="521" cy="80" r="1.3"/><circle cx="485" cy="37" r="1.3"/><circle cx="438" cy="59" r="1.3"/><circle cx="523" cy="295" r="1.3"/><circle cx="320" cy="50" r="1.2"/><circle cx="469" cy="181" r="1.2"/><circle cx="510" cy="70" r="1.2"/><circle cx="363" cy="137" r="1.2"/><circle cx="83" cy="30" r="1.2"/><circle cx="399" cy="254" r="1.2"/><circle cx="397" cy="107" r="1.2"/><circle cx="343" cy="135" r="1.2"/><circle cx="511" cy="115" r="1.2"/><circle cx="537" cy="262" r="1.2"/><circle cx="402" cy="49" r="1.2"/><circle cx="603" cy="244" r="1.1"/><circle cx="396" cy="248" r="1.1"/><circle cx="403" cy="8" r="1.1"/><circle cx="263" cy="68" r="1.1"/><circle cx="409" cy="65" r="1.1"/><circle cx="117" cy="35" r="1.1"/><circle cx="434" cy="281" r="1.0"/><circle cx="395" cy="90" r="1.0"/><circle cx="413" cy="73" r="1.0"/><circle cx="408" cy="67" r="1.0"/><circle cx="298" cy="63" r="1.0"/><circle cx="255" cy="35" r="1.0"/><circle cx="249" cy="34" r="1.0"/><circle cx="536" cy="286" r="1.0"/></g>
+<g fill="#C7DDF3" fill-opacity="0.9" stroke="#fff" stroke-width="0.4"><circle cx="399" cy="74" r="6.5"/><circle cx="405" cy="81" r="5.9"/><circle cx="400" cy="80" r="5.3"/><circle cx="414" cy="79" r="5.2"/><circle cx="408" cy="95" r="5.1"/><circle cx="403" cy="85" r="4.9"/><circle cx="409" cy="83" r="4.9"/><circle cx="407" cy="83" r="4.8"/><circle cx="483" cy="224" r="4.4"/><circle cx="415" cy="82" r="3.7"/><circle cx="557" cy="300" r="3.1"/><circle cx="517" cy="318" r="2.8"/><circle cx="71" cy="44" r="2.4"/><circle cx="75" cy="29" r="2.2"/><circle cx="34" cy="22" r="2.1"/><circle cx="530" cy="295" r="2.1"/><circle cx="137" cy="33" r="2.0"/><circle cx="87" cy="42" r="2.0"/><circle cx="251" cy="11" r="1.8"/><circle cx="519" cy="124" r="1.8"/><circle cx="447" cy="190" r="1.8"/><circle cx="108" cy="8" r="1.6"/><circle cx="503" cy="219" r="1.5"/><circle cx="399" cy="223" r="1.3"/><circle cx="325" cy="110" r="1.3"/><circle cx="468" cy="51" r="1.3"/><circle cx="66" cy="50" r="1.3"/></g>
+<g fill="#8FBEE9" fill-opacity="0.9" stroke="#fff" stroke-width="0.4"><circle cx="621" cy="249" r="7.0"/><circle cx="420" cy="65" r="7.0"/><circle cx="251" cy="23" r="6.7"/><circle cx="425" cy="88" r="6.4"/><circle cx="419" cy="75" r="6.1"/><circle cx="410" cy="77" r="6.1"/><circle cx="398" cy="85" r="6.0"/><circle cx="394" cy="78" r="5.9"/><circle cx="110" cy="21" r="5.8"/><circle cx="433" cy="84" r="5.7"/><circle cx="440" cy="74" r="5.6"/><circle cx="371" cy="162" r="5.6"/><circle cx="364" cy="169" r="5.5"/><circle cx="559" cy="258" r="5.5"/><circle cx="369" cy="156" r="5.4"/><circle cx="366" cy="165" r="5.1"/><circle cx="356" cy="170" r="5.0"/><circle cx="364" cy="135" r="4.9"/><circle cx="412" cy="70" r="4.9"/><circle cx="370" cy="136" r="4.9"/><circle cx="381" cy="68" r="4.9"/><circle cx="539" cy="252" r="4.8"/><circle cx="482" cy="173" r="4.7"/><circle cx="466" cy="46" r="4.7"/><circle cx="379" cy="128" r="4.7"/><circle cx="355" cy="139" r="4.5"/><circle cx="454" cy="59" r="4.5"/><circle cx="405" cy="77" r="4.3"/><circle cx="22" cy="66" r="4.2"/><circle cx="357" cy="132" r="4.0"/><circle cx="482" cy="99" r="3.8"/><circle cx="79" cy="20" r="3.8"/><circle cx="533" cy="278" r="3.4"/><circle cx="360" cy="146" r="3.3"/><circle cx="518" cy="161" r="3.2"/><circle cx="365" cy="146" r="3.1"/><circle cx="557" cy="236" r="3.0"/><circle cx="416" cy="98" r="2.9"/><circle cx="526" cy="184" r="2.9"/><circle cx="49" cy="48" r="2.8"/><circle cx="488" cy="33" r="2.7"/><circle cx="512" cy="199" r="2.7"/><circle cx="578" cy="281" r="2.7"/><circle cx="546" cy="257" r="2.6"/><circle cx="24" cy="39" r="2.5"/><circle cx="524" cy="143" r="2.5"/><circle cx="183" cy="17" r="2.5"/><circle cx="469" cy="15" r="2.5"/><circle cx="53" cy="18" r="2.5"/><circle cx="578" cy="250" r="2.4"/><circle cx="570" cy="249" r="2.4"/><circle cx="488" cy="200" r="2.4"/><circle cx="509" cy="144" r="2.3"/><circle cx="17" cy="21" r="2.3"/><circle cx="526" cy="233" r="2.2"/><circle cx="541" cy="263" r="2.2"/><circle cx="380" cy="111" r="2.2"/><circle cx="463" cy="21" r="2.2"/><circle cx="502" cy="210" r="2.1"/><circle cx="514" cy="90" r="2.1"/><circle cx="478" cy="80" r="2.1"/><circle cx="140" cy="14" r="2.1"/><circle cx="499" cy="114" r="2.1"/><circle cx="476" cy="191" r="2.1"/><circle cx="584" cy="244" r="2.0"/><circle cx="289" cy="16" r="2.0"/><circle cx="97" cy="10" r="2.0"/><circle cx="515" cy="102" r="2.0"/><circle cx="496" cy="160" r="1.9"/><circle cx="519" cy="61" r="1.9"/><circle cx="506" cy="285" r="1.9"/><circle cx="70" cy="38" r="1.9"/><circle cx="524" cy="110" r="1.9"/><circle cx="522" cy="212" r="1.9"/><circle cx="285" cy="10" r="1.9"/><circle cx="257" cy="28" r="1.8"/><circle cx="162" cy="16" r="1.8"/><circle cx="437" cy="263" r="1.8"/><circle cx="428" cy="138" r="1.8"/><circle cx="522" cy="133" r="1.7"/><circle cx="45" cy="63" r="1.7"/><circle cx="506" cy="245" r="1.7"/><circle cx="472" cy="240" r="1.7"/><circle cx="496" cy="33" r="1.6"/><circle cx="309" cy="26" r="1.6"/><circle cx="467" cy="263" r="1.6"/><circle cx="577" cy="309" r="1.6"/><circle cx="396" cy="210" r="1.6"/><circle cx="104" cy="10" r="1.6"/><circle cx="501" cy="206" r="1.6"/><circle cx="581" cy="297" r="1.5"/><circle cx="518" cy="264" r="1.5"/><circle cx="433" cy="99" r="1.4"/><circle cx="487" cy="74" r="1.4"/><circle cx="487" cy="266" r="1.4"/><circle cx="502" cy="151" r="1.3"/><circle cx="68" cy="50" r="1.2"/><circle cx="285" cy="89" r="1.2"/><circle cx="391" cy="42" r="1.2"/></g>
+<g fill="#4D9BE0" fill-opacity="0.9" stroke="#fff" stroke-width="0.4"><circle cx="347" cy="120" r="6.7"/><circle cx="386" cy="59" r="6.7"/><circle cx="419" cy="86" r="6.3"/><circle cx="406" cy="107" r="6.3"/><circle cx="358" cy="123" r="6.2"/><circle cx="308" cy="56" r="5.8"/><circle cx="293" cy="50" r="5.8"/><circle cx="407" cy="88" r="5.7"/><circle cx="513" cy="24" r="5.7"/><circle cx="393" cy="67" r="5.4"/><circle cx="414" cy="105" r="5.4"/><circle cx="427" cy="66" r="5.4"/><circle cx="371" cy="150" r="5.4"/><circle cx="289" cy="70" r="5.4"/><circle cx="371" cy="119" r="5.3"/><circle cx="602" cy="257" r="5.3"/><circle cx="357" cy="38" r="5.3"/><circle cx="386" cy="76" r="5.2"/><circle cx="359" cy="136" r="5.1"/><circle cx="399" cy="93" r="5.1"/><circle cx="376" cy="142" r="5.1"/><circle cx="264" cy="15" r="5.1"/><circle cx="408" cy="70" r="5.1"/><circle cx="360" cy="142" r="5.1"/><circle cx="328" cy="111" r="5.0"/><circle cx="425" cy="75" r="5.0"/><circle cx="326" cy="102" r="5.0"/><circle cx="402" cy="69" r="4.8"/><circle cx="434" cy="272" r="4.8"/><circle cx="397" cy="44" r="4.7"/><circle cx="370" cy="145" r="4.6"/><circle cx="414" cy="62" r="4.5"/><circle cx="369" cy="210" r="4.5"/><circle cx="407" cy="63" r="4.4"/><circle cx="412" cy="84" r="4.4"/><circle cx="415" cy="73" r="4.3"/><circle cx="474" cy="36" r="4.3"/><circle cx="350" cy="19" r="4.2"/><circle cx="367" cy="142" r="3.9"/><circle cx="377" cy="25" r="3.7"/><circle cx="297" cy="30" r="3.4"/><circle cx="362" cy="144" r="3.4"/><circle cx="331" cy="15" r="3.4"/><circle cx="327" cy="220" r="3.3"/><circle cx="240" cy="32" r="3.3"/><circle cx="489" cy="12" r="3.2"/><circle cx="262" cy="42" r="3.2"/><circle cx="278" cy="19" r="3.2"/><circle cx="390" cy="118" r="3.0"/><circle cx="457" cy="146" r="3.0"/><circle cx="268" cy="79" r="2.9"/><circle cx="444" cy="18" r="2.8"/><circle cx="461" cy="51" r="2.8"/><circle cx="484" cy="26" r="2.8"/><circle cx="228" cy="17" r="2.7"/><circle cx="362" cy="147" r="2.7"/><circle cx="503" cy="61" r="2.6"/><circle cx="462" cy="174" r="2.6"/><circle cx="329" cy="41" r="2.6"/><circle cx="506" cy="181" r="2.5"/><circle cx="415" cy="18" r="2.5"/><circle cx="420" cy="189" r="2.5"/><circle cx="309" cy="13" r="2.5"/><circle cx="463" cy="119" r="2.5"/><circle cx="515" cy="47" r="2.4"/><circle cx="249" cy="54" r="2.4"/><circle cx="367" cy="253" r="2.3"/><circle cx="258" cy="54" r="2.3"/><circle cx="394" cy="11" r="2.3"/><circle cx="515" cy="76" r="2.2"/><circle cx="319" cy="30" r="2.1"/><circle cx="451" cy="11" r="2.1"/><circle cx="373" cy="170" r="2.1"/><circle cx="326" cy="238" r="2.1"/><circle cx="530" cy="311" r="2.0"/><circle cx="383" cy="265" r="2.0"/><circle cx="480" cy="16" r="2.0"/><circle cx="429" cy="256" r="1.9"/><circle cx="500" cy="79" r="1.9"/><circle cx="430" cy="253" r="1.9"/><circle cx="497" cy="147" r="1.8"/><circle cx="249" cy="37" r="1.8"/><circle cx="213" cy="16" r="1.7"/><circle cx="333" cy="212" r="1.7"/><circle cx="522" cy="255" r="1.7"/><circle cx="532" cy="218" r="1.7"/><circle cx="512" cy="62" r="1.7"/><circle cx="384" cy="112" r="1.7"/><circle cx="392" cy="254" r="1.6"/><circle cx="484" cy="70" r="1.5"/><circle cx="390" cy="268" r="1.5"/><circle cx="489" cy="317" r="1.5"/><circle cx="514" cy="112" r="1.5"/><circle cx="375" cy="217" r="1.4"/><circle cx="453" cy="66" r="1.4"/><circle cx="456" cy="165" r="1.4"/><circle cx="491" cy="320" r="1.3"/><circle cx="267" cy="65" r="1.3"/><circle cx="487" cy="273" r="1.2"/></g>
+<g fill="#0F6FCB" fill-opacity="0.9" stroke="#fff" stroke-width="0.4"><circle cx="320" cy="116" r="6.5"/><circle cx="426" cy="115" r="6.3"/><circle cx="350" cy="135" r="6.3"/><circle cx="338" cy="126" r="6.3"/><circle cx="313" cy="112" r="6.3"/><circle cx="330" cy="120" r="6.2"/><circle cx="387" cy="158" r="6.1"/><circle cx="357" cy="181" r="6.0"/><circle cx="390" cy="87" r="6.0"/><circle cx="387" cy="175" r="5.9"/><circle cx="372" cy="99" r="5.9"/><circle cx="417" cy="138" r="5.8"/><circle cx="349" cy="128" r="5.8"/><circle cx="382" cy="90" r="5.7"/><circle cx="405" cy="57" r="5.4"/><circle cx="395" cy="125" r="5.4"/><circle cx="379" cy="99" r="5.4"/><circle cx="445" cy="40" r="5.3"/><circle cx="426" cy="146" r="5.3"/><circle cx="376" cy="57" r="5.1"/><circle cx="358" cy="64" r="5.1"/><circle cx="368" cy="180" r="5.1"/><circle cx="353" cy="132" r="5.0"/><circle cx="400" cy="114" r="5.0"/><circle cx="389" cy="99" r="5.0"/><circle cx="454" cy="52" r="5.0"/><circle cx="373" cy="111" r="4.9"/><circle cx="358" cy="202" r="4.8"/><circle cx="453" cy="39" r="4.7"/><circle cx="375" cy="204" r="4.5"/><circle cx="393" cy="105" r="4.5"/><circle cx="394" cy="149" r="4.4"/><circle cx="399" cy="134" r="4.4"/><circle cx="369" cy="127" r="4.4"/><circle cx="391" cy="138" r="4.3"/><circle cx="322" cy="99" r="4.3"/><circle cx="332" cy="106" r="4.3"/><circle cx="392" cy="241" r="4.2"/><circle cx="425" cy="127" r="4.2"/><circle cx="418" cy="150" r="4.2"/><circle cx="355" cy="221" r="4.2"/><circle cx="499" cy="32" r="4.1"/><circle cx="433" cy="246" r="4.1"/><circle cx="384" cy="121" r="4.0"/><circle cx="432" cy="132" r="4.0"/><circle cx="444" cy="56" r="3.9"/><circle cx="336" cy="111" r="3.8"/><circle cx="439" cy="31" r="3.8"/><circle cx="378" cy="105" r="3.8"/><circle cx="406" cy="268" r="3.7"/><circle cx="420" cy="262" r="3.7"/><circle cx="432" cy="63" r="3.7"/><circle cx="447" cy="146" r="3.6"/><circle cx="406" cy="72" r="3.6"/><circle cx="358" cy="209" r="3.6"/><circle cx="338" cy="122" r="3.5"/><circle cx="411" cy="220" r="3.5"/><circle cx="364" cy="116" r="3.5"/><circle cx="326" cy="82" r="3.4"/><circle cx="376" cy="12" r="3.3"/><circle cx="418" cy="197" r="3.3"/><circle cx="401" cy="98" r="3.3"/><circle cx="488" cy="127" r="3.2"/><circle cx="383" cy="109" r="3.2"/><circle cx="307" cy="48" r="3.2"/><circle cx="433" cy="95" r="3.2"/><circle cx="365" cy="46" r="3.1"/><circle cx="425" cy="271" r="2.9"/><circle cx="376" cy="75" r="2.8"/><circle cx="429" cy="26" r="2.8"/><circle cx="341" cy="196" r="2.8"/><circle cx="420" cy="237" r="2.8"/><circle cx="398" cy="37" r="2.8"/><circle cx="381" cy="137" r="2.7"/><circle cx="404" cy="171" r="2.7"/><circle cx="341" cy="43" r="2.7"/><circle cx="465" cy="146" r="2.7"/><circle cx="436" cy="55" r="2.6"/><circle cx="276" cy="71" r="2.6"/><circle cx="412" cy="33" r="2.5"/><circle cx="531" cy="243" r="2.5"/><circle cx="424" cy="166" r="2.5"/><circle cx="474" cy="146" r="2.4"/><circle cx="608" cy="239" r="2.4"/><circle cx="263" cy="73" r="2.4"/><circle cx="423" cy="56" r="2.4"/><circle cx="372" cy="240" r="2.3"/><circle cx="412" cy="157" r="2.2"/><circle cx="382" cy="33" r="2.2"/><circle cx="416" cy="172" r="2.2"/><circle cx="435" cy="12" r="2.2"/><circle cx="459" cy="35" r="2.2"/><circle cx="420" cy="170" r="2.1"/><circle cx="314" cy="40" r="2.1"/><circle cx="479" cy="51" r="2.1"/><circle cx="377" cy="182" r="2.0"/><circle cx="420" cy="286" r="1.9"/><circle cx="353" cy="210" r="1.9"/><circle cx="516" cy="19" r="1.7"/><circle cx="457" cy="180" r="1.7"/><circle cx="466" cy="187" r="1.7"/><circle cx="343" cy="232" r="1.7"/><circle cx="390" cy="264" r="1.7"/><circle cx="330" cy="111" r="1.6"/><circle cx="591" cy="240" r="1.6"/><circle cx="428" cy="50" r="1.6"/><circle cx="418" cy="163" r="1.6"/><circle cx="505" cy="94" r="1.5"/><circle cx="453" cy="232" r="1.4"/><circle cx="481" cy="150" r="1.4"/><circle cx="454" cy="172" r="1.4"/><circle cx="455" cy="186" r="1.4"/><circle cx="360" cy="113" r="1.3"/></g>
+<g fill="#0A3E77" fill-opacity="0.9" stroke="#fff" stroke-width="0.4"><circle cx="324" cy="130" r="5.6"/><circle cx="340" cy="135" r="5.4"/><circle cx="369" cy="86" r="5.3"/><circle cx="334" cy="136" r="5.2"/><circle cx="344" cy="139" r="5.1"/><circle cx="333" cy="65" r="4.8"/><circle cx="385" cy="151" r="4.7"/><circle cx="416" cy="122" r="4.5"/><circle cx="342" cy="118" r="4.5"/><circle cx="316" cy="89" r="4.4"/><circle cx="344" cy="109" r="4.2"/><circle cx="385" cy="136" r="4.2"/><circle cx="344" cy="131" r="4.0"/><circle cx="407" cy="120" r="3.9"/><circle cx="338" cy="143" r="3.8"/><circle cx="382" cy="194" r="3.8"/><circle cx="302" cy="72" r="3.7"/><circle cx="356" cy="116" r="3.7"/><circle cx="317" cy="62" r="3.6"/><circle cx="398" cy="126" r="3.6"/><circle cx="410" cy="207" r="3.5"/><circle cx="433" cy="42" r="3.4"/><circle cx="332" cy="95" r="3.4"/><circle cx="276" cy="57" r="3.3"/><circle cx="351" cy="194" r="3.3"/><circle cx="360" cy="98" r="3.2"/><circle cx="415" cy="251" r="3.2"/><circle cx="408" cy="191" r="3.0"/><circle cx="410" cy="131" r="3.0"/><circle cx="310" cy="103" r="2.9"/><circle cx="345" cy="77" r="2.9"/><circle cx="407" cy="147" r="2.9"/><circle cx="311" cy="76" r="2.8"/><circle cx="412" cy="46" r="2.8"/><circle cx="319" cy="73" r="2.8"/><circle cx="400" cy="20" r="2.8"/><circle cx="346" cy="98" r="2.8"/><circle cx="298" cy="115" r="2.7"/><circle cx="403" cy="184" r="2.7"/><circle cx="278" cy="39" r="2.6"/><circle cx="367" cy="74" r="2.6"/><circle cx="389" cy="220" r="2.6"/><circle cx="364" cy="108" r="2.6"/><circle cx="426" cy="44" r="2.5"/><circle cx="295" cy="81" r="2.5"/><circle cx="437" cy="66" r="2.4"/><circle cx="412" cy="144" r="2.4"/><circle cx="418" cy="227" r="2.3"/><circle cx="351" cy="86" r="2.2"/><circle cx="359" cy="104" r="2.2"/><circle cx="355" cy="109" r="2.1"/><circle cx="354" cy="94" r="2.0"/><circle cx="297" cy="100" r="2.0"/><circle cx="281" cy="86" r="2.0"/><circle cx="350" cy="226" r="2.0"/><circle cx="414" cy="166" r="1.9"/><circle cx="351" cy="91" r="1.9"/><circle cx="359" cy="82" r="1.9"/><circle cx="332" cy="140" r="1.9"/><circle cx="412" cy="195" r="1.9"/><circle cx="415" cy="179" r="1.8"/><circle cx="421" cy="273" r="1.7"/><circle cx="357" cy="233" r="1.7"/><circle cx="435" cy="292" r="1.7"/><circle cx="419" cy="288" r="1.6"/><circle cx="342" cy="129" r="1.6"/><circle cx="418" cy="131" r="1.6"/><circle cx="424" cy="282" r="1.6"/><circle cx="433" cy="122" r="1.6"/><circle cx="366" cy="261" r="1.6"/><circle cx="412" cy="183" r="1.6"/><circle cx="429" cy="286" r="1.6"/><circle cx="354" cy="77" r="1.5"/><circle cx="396" cy="61" r="1.5"/><circle cx="352" cy="103" r="1.5"/><circle cx="381" cy="49" r="1.4"/><circle cx="335" cy="142" r="1.4"/><circle cx="303" cy="96" r="1.3"/><circle cx="295" cy="75" r="1.3"/><circle cx="295" cy="103" r="1.3"/><circle cx="430" cy="51" r="1.3"/><circle cx="284" cy="62" r="1.2"/></g>
+</svg>
+          <div class="maplegend">
+            <span class="li"><span class="sw" style="background:#C7DDF3"></span>Under $60k</span>
+            <span class="li"><span class="sw" style="background:#8FBEE9"></span>$60&ndash;85k</span>
+            <span class="li"><span class="sw" style="background:#4D9BE0"></span>$85&ndash;110k</span>
+            <span class="li"><span class="sw" style="background:#0F6FCB"></span>$110&ndash;150k</span>
+            <span class="li"><span class="sw" style="background:#0A3E77"></span>$150k+</span>
+          </div>
+          <div class="fnote">Each point is one ZIP at its geographic center; point size reflects housing units. 420 ZIPs carry a published median; small ZIPs without one are shown in gray.</div>
+        </div>
+        <div class="panel">
+          <div class="pt">Income distribution across ZIPs</div>
+          <ul class="cfg">
+            <li><span class="ck">10th pctile ZIP</span><span class="cv"><b>$62,880</b></span></li>
+            <li><span class="ck">Median ZIP</span><span class="cv"><b>$106,181</b></span></li>
+            <li><span class="ck">90th pctile ZIP</span><span class="cv"><b>$173,625</b></span></li>
+            <li><span class="ck">$150k+ ZIPs</span><span class="cv"><b>82</b> ZIP codes, all in the Capital Region, Baltimore Metro and Southern Maryland</span></li>
+            <li><span class="ck">Top-coded</span><span class="cv"><b>7</b> ZIPs at the Census cap of &ldquo;$250,000 or more&rdquo;</span></li>
+            <li><span class="ck">Coverage</span><span class="cv">420 of 470 ZIPs publish a median; the rest are below the Census reporting threshold</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fpanel">
+        <div class="pt" style="font-size:13px;font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.04em;margin-bottom:18px;">Household-weighted income by region</div>
+        <div class="fstep"><div class="lab">Southern Maryland<small>135,198 households</small></div><div class="fbar"><i style="background:#057BE5" data-w="100">$128k</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Capital Region<small>848,498 households</small></div><div class="fbar"><i style="background:#057BE5" data-w="97">$124k</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Baltimore Metro<small>1,095,201 households</small></div><div class="fbar"><i style="background:#057BE5" data-w="81">$104k</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Mid &amp; Upper Shore<small>111,277 households</small></div><div class="fbar"><i style="background:#057BE5" data-w="69">$89k</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Lower Shore<small>72,954 households</small></div><div class="fbar"><i style="background:#9cc4ec" data-w="60" class="dk">$77k</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Western Maryland<small>99,608 households</small></div><div class="fbar"><i style="background:#9cc4ec" data-w="56" class="dk">$71k</i></div><div class="pct"></div></div>
+        <div class="fnote">Household-weighted average of ZIP median incomes. Statewide household-weighted median: <b>$106,334</b>. The Lower Shore sits at <b>$77k</b>, below the state&#39;s middle, with home values to match.</div>
+      </div>
+    </section>
+
+    <section class="block" id="s3">
+      <div class="bhead"><span class="ix">03</span><div><h2>Homeownership</h2><p>Two measures per ZIP</p></div></div>
+      <div class="split" style="margin-bottom:18px;">
+        <div class="panel">
+          <div class="pt">The two ownership columns</div>
+          <ul class="cfg">
+            <li><span class="ck">Rate &middot; 67.6%</span><span class="cv"><b>Homeownership rate</b>: owner-occupied homes &divide; occupied homes. The standard tenure measure.</span></li>
+            <li><span class="ck">All homes &middot; 62.4%</span><span class="cv"><b>% of all homes owner-occupied</b>: owner-occupied homes &divide; all housing units, including vacant, seasonal and rented-out stock.</span></li>
+            <li><span class="ck">Your market</span><span class="cv">Salisbury <b>21804</b>: 51.4% of households own; 47.4% of all units owner-occupied</span></li>
+            <li><span class="ck">Resort market</span><span class="cv">Ocean City <b>21842</b>: 76.0% of resident households own; <b>13.4%</b> of all units owner-occupied; 82.4% of units vacant most of the year</span></li>
+            <li><span class="ck">Mountain resort</span><span class="cv">Deep Creek Lake-area <b>21550</b> (Oakland): vacancy 28.5%</span></li>
+          </ul>
+        </div>
+        <div class="fpanel">
+          <div class="pt" style="font-size:13px;font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.04em;margin-bottom:18px;">Homeownership rate by region</div>
+          <div class="fstep"><div class="lab">Southern Maryland</div><div class="fbar"><i style="background:#0fae8f" data-w="100">80.7%</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Mid &amp; Upper Shore</div><div class="fbar"><i style="background:#0fae8f" data-w="93">74.8%</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Western Maryland</div><div class="fbar"><i style="background:#0fae8f" data-w="86">69.5%</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Lower Shore</div><div class="fbar"><i style="background:#0fae8f" data-w="85">68.7%</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Baltimore Metro</div><div class="fbar"><i style="background:#0fae8f" data-w="82">66.5%</i></div><div class="pct"></div></div>
+<div class="fstep"><div class="lab">Capital Region</div><div class="fbar"><i style="background:#0fae8f" data-w="81">65.7%</i></div><div class="pct"></div></div>
+          <div class="fnote">Owner-occupied homes &divide; households, by region. Statewide: <b>67.6%</b>. Capital Region has the lowest regional rate at 65.7%; the Lower Shore sits at 68.7%.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="s4">
+      <div class="bhead"><span class="ix">04</span><div><h2>Within-county spread</h2><p>ZIP-level range of median household income, ZIPs with 1,000+ households</p></div></div>
+      <div class="panel">
+        <table class="mtable">
+          <thead><tr><th>County</th><th class="r">Lowest ZIP</th><th class="r">Median ZIP</th><th class="r">Highest ZIP</th><th class="r">ZIPs</th></tr></thead>
+          <tbody>
+            <tr><td class="nm">Wicomico County</td><td class="r">$62,880<div class="sub">21837 Mardela Springs</div></td><td class="r">$73,156</td><td class="r">$112,991<div class="sub">21830 Hebron</div></td><td class="r">9</td></tr><tr><td class="nm">Worcester County</td><td class="r">$53,162<div class="sub">21851 Pocomoke City</div></td><td class="r">$79,876</td><td class="r">$121,472<div class="sub">21813 Bishopville</div></td><td class="r">5</td></tr><tr><td class="nm">Baltimore (city)</td><td class="r">$38,409<div class="sub">21217 Baltimore</div></td><td class="r">$62,650</td><td class="r">$112,428<div class="sub">21210 Baltimore</div></td><td class="r">20</td></tr><tr><td class="nm">Baltimore County</td><td class="r">$64,141<div class="sub">21222 Dundalk</div></td><td class="r">$101,831</td><td class="r">$197,619<div class="sub">21131 Phoenix</div></td><td class="r">32</td></tr><tr><td class="nm">Prince George&#x27;s County</td><td class="r">$63,810<div class="sub">20710 Bladensburg</div></td><td class="r">$90,205</td><td class="r">$163,105<div class="sub">20721 Bowie</div></td><td class="r">31</td></tr><tr><td class="nm">Montgomery County</td><td class="r">$80,768<div class="sub">20903 Silver Spring</div></td><td class="r">$141,050</td><td class="r">$250,001<div class="sub">20854 Potomac</div></td><td class="r">33</td></tr><tr><td class="nm">Anne Arundel County</td><td class="r">$54,020<div class="sub">21225 Brooklyn</div></td><td class="r">$136,684</td><td class="r">$188,347<div class="sub">21035 Davidsonville</div></td><td class="r">27</td></tr><tr><td class="nm">Howard County</td><td class="r">$76,842<div class="sub">20763 Savage</div></td><td class="r">$148,125</td><td class="r">$250,001<div class="sub">21738 Glenwood</div></td><td class="r">15</td></tr>
+          </tbody>
+        </table>
+        <div class="fnote">Income varies by roughly two to three times between a county&#39;s lowest- and highest-income ZIP. Campaign geography is set at the ZIP level, not the city or county level.</div>
+      </div>
+    </section>
+
+    <section class="block" id="s5">
+      <div class="bhead"><span class="ix">05</span><div><h2>Prime-target ZIPs</h2><p>Income $100k+ &middot; ownership 60%+ &middot; Low or Moderate water and wind tier &middot; 3,000+ households</p></div></div>
+      <div class="kgrid" style="margin-bottom:18px;">
+        <div class="kc"><div class="v">98</div><div class="k">ZIP codes meet all four screens</div><div class="d">Of 470 statewide</div></div>
+        <div class="kc"><div class="v">0.99M</div><div class="k">Households in those ZIPs</div><div class="d">41.8% of all MD households</div></div>
+        <div class="kc"><div class="v">26</div><div class="k">Prime ZIPs that sent a branded lead</div><div class="d">99 leads between them</div></div>
+      </div>
+      <div class="panel">
+        <div class="pt">Largest prime-target ZIPs by households</div>
+        <table class="mtable">
+          <thead><tr><th>ZIP</th><th>City</th><th>County</th><th class="r">Med. income</th><th class="r">Own rate</th><th>Water &amp; wind</th><th class="r">Households</th><th class="r">Your Home leads</th></tr></thead>
+          <tbody>
+            <tr><td class="nm">20878</td><td>Gaithersburg</td><td>Montgomery County</td><td class="r">$144,313</td><td class="r">69.2%</td><td><span class="tag green">Low</span></td><td class="r">24,237</td><td class="r">2</td></tr><tr><td class="nm">20874</td><td>Germantown</td><td>Montgomery County</td><td class="r">$115,022</td><td class="r">66.4%</td><td><span class="tag green">Low</span></td><td class="r">22,662</td><td class="r">0</td></tr><tr><td class="nm">21122</td><td>Pasadena</td><td>Anne Arundel County</td><td class="r">$127,587</td><td class="r">86.6%</td><td><span class="tag gold">Moderate</span></td><td class="r">22,423</td><td class="r">0</td></tr><tr><td class="nm">20774</td><td>Upper Marlboro</td><td>Prince George&#x27;s County</td><td class="r">$128,259</td><td class="r">75.6%</td><td><span class="tag green">Low</span></td><td class="r">21,095</td><td class="r">3</td></tr><tr><td class="nm">21228</td><td>Catonsville</td><td>Baltimore County</td><td class="r">$112,656</td><td class="r">71.0%</td><td><span class="tag green">Low</span></td><td class="r">19,788</td><td class="r">1</td></tr><tr><td class="nm">20744</td><td>Fort Washington</td><td>Prince George&#x27;s County</td><td class="r">$124,190</td><td class="r">81.9%</td><td><span class="tag green">Low</span></td><td class="r">19,681</td><td class="r">11</td></tr><tr><td class="nm">20772</td><td>Upper Marlboro</td><td>Prince George&#x27;s County</td><td class="r">$139,403</td><td class="r">89.3%</td><td><span class="tag green">Low</span></td><td class="r">19,519</td><td class="r">0</td></tr><tr><td class="nm">21701</td><td>Frederick</td><td>Frederick County</td><td class="r">$106,577</td><td class="r">66.2%</td><td><span class="tag green">Low</span></td><td class="r">18,651</td><td class="r">1</td></tr><tr><td class="nm">21702</td><td>Frederick</td><td>Frederick County</td><td class="r">$106,983</td><td class="r">65.2%</td><td><span class="tag green">Low</span></td><td class="r">18,525</td><td class="r">0</td></tr><tr><td class="nm">21044</td><td>Columbia</td><td>Howard County</td><td class="r">$135,057</td><td class="r">60.3%</td><td><span class="tag green">Low</span></td><td class="r">18,293</td><td class="r">0</td></tr><tr><td class="nm">20902</td><td>Silver Spring</td><td>Montgomery County</td><td class="r">$114,486</td><td class="r">64.4%</td><td><span class="tag green">Low</span></td><td class="r">18,236</td><td class="r">0</td></tr><tr><td class="nm">21401</td><td>Annapolis</td><td>Anne Arundel County</td><td class="r">$123,381</td><td class="r">65.4%</td><td><span class="tag gold">Moderate</span></td><td class="r">17,984</td><td class="r">0</td></tr>
+          </tbody>
+        </table>
+        <div class="fnote">The full 98-ZIP list is filterable in the spreadsheet on the same four columns.</div>
+      </div>
+    </section>
+
+    <section class="block" id="s6">
+      <div class="bhead"><span class="ix">06</span><div><h2>Household screens</h2><p>ZIPs whose household profile differs from their headline population</p></div></div>
+      <div class="split" style="margin-bottom:18px;">
+        <div class="panel">
+          <div class="pt">Senior concentration</div>
+          <ul class="cfg">
+            <li><span class="ck">Flagged ZIPs</span><span class="cv"><b>11</b> with householders 65+ at 50% or more of occupied homes (300+ households)</span></li>
+            <li><span class="ck">Where</span><span class="cv">Small Bay and Shore communities, plus a few in Southern and Western Maryland</span></li>
+            <li><span class="ck">Why it matters</span><span class="cv">Owners, often mortgage-free, with fewer drivers per household: strong Home, lighter Auto</span></li>
+          </ul>
+        </div>
+        <div class="panel">
+          <div class="pt">Urban renter cores</div>
+          <ul class="cfg">
+            <li><span class="ck">Flagged ZIPs</span><span class="cv"><b>4</b> with homeownership under 30% and density above 3,000 per sq mi</span></li>
+            <li><span class="ck">Households</span><span class="cv"><b>29,823</b> across those ZIPs</span></li>
+            <li><span class="ck">Location</span><span class="cv">Capital Region 2, Baltimore Metro 2</span></li>
+            <li><span class="ck">No vehicle</span><span class="cv"><b>36.2%</b> of households, vs. 8.8% statewide</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="pt">Most senior-concentrated ZIPs &middot; 300+ households</div>
+        <table class="mtable">
+          <thead><tr><th>ZIP</th><th>City</th><th>County</th><th class="r">Med. age</th><th class="r">HH 65+</th><th class="r">Own rate</th><th class="r">Households</th></tr></thead>
+          <tbody>
+            <tr><td class="nm">20688</td><td>Solomons</td><td>Calvert County</td><td class="r">63.8</td><td class="r">66.2%</td><td class="r">48.5%</td><td class="r">651</td></tr><tr><td class="nm">21654</td><td>Oxford</td><td>Talbot County</td><td class="r">68.7</td><td class="r">64.7%</td><td class="r">85.7%</td><td class="r">629</td></tr><tr><td class="nm">21778</td><td>Rocky Ridge</td><td>Frederick County</td><td class="r">58.4</td><td class="r">61.4%</td><td class="r">81.3%</td><td class="r">332</td></tr><tr><td class="nm">21871</td><td>Westover</td><td>Somerset County</td><td class="r">60.2</td><td class="r">56.1%</td><td class="r">84.5%</td><td class="r">814</td></tr><tr><td class="nm">21767</td><td>Maugansville</td><td>Washington County</td><td class="r">51.4</td><td class="r">54.0%</td><td class="r">57.9%</td><td class="r">541</td></tr><tr><td class="nm">21912</td><td>Warwick</td><td>Cecil County</td><td class="r">58.2</td><td class="r">53.9%</td><td class="r">87.1%</td><td class="r">696</td></tr><tr><td class="nm">21657</td><td>Queen Anne</td><td>Queen Anne&#x27;s County</td><td class="r">58.5</td><td class="r">53.6%</td><td class="r">87.5%</td><td class="r">522</td></tr><tr><td class="nm">20675</td><td>Pomfret</td><td>Charles County</td><td class="r">49.6</td><td class="r">52.4%</td><td class="r">96.2%</td><td class="r">639</td></tr><tr><td class="nm">21521</td><td>Barton</td><td>Garrett County</td><td class="r">54.1</td><td class="r">50.9%</td><td class="r">89.6%</td><td class="r">568</td></tr><tr><td class="nm">21821</td><td>Deal Island</td><td>Somerset County</td><td class="r">46.0</td><td class="r">50.7%</td><td class="r">83.2%</td><td class="r">375</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="block" id="s7">
+      <div class="bhead"><span class="ix">07</span><div><h2>Where your leads come from</h2><p>108 Home and 149 Auto leads by region vs. share of Maryland households &middot; Jul 13 to Oct 12, 2026</p></div></div>
+      <div class="panel">
+        <table class="mtable">
+          <thead><tr><th>Region</th><th class="r">Share of MD households</th><th class="r">Home leads</th><th class="r">Share</th><th class="r">Auto leads</th><th class="r">Share</th></tr></thead>
+          <tbody>
+            <tr><td class="nm">Baltimore Metro</td><td class="r">46.4%</td><td class="r">50</td><td class="r">46.3%</td><td class="r">83</td><td class="r">55.7%</td></tr>
+<tr><td class="nm">Capital Region</td><td class="r">35.9%</td><td class="r">40</td><td class="r">37.0%</td><td class="r">41</td><td class="r">27.5%</td></tr>
+<tr><td class="nm">Western Maryland</td><td class="r">4.2%</td><td class="r">7</td><td class="r">6.5%</td><td class="r">5</td><td class="r">3.4%</td></tr>
+<tr><td class="nm">Mid &amp; Upper Shore</td><td class="r">4.7%</td><td class="r">4</td><td class="r">3.7%</td><td class="r">7</td><td class="r">4.7%</td></tr>
+<tr><td class="nm">Lower Shore</td><td class="r">3.1%</td><td class="r">4</td><td class="r">3.7%</td><td class="r">6</td><td class="r">4.0%</td></tr>
+<tr><td class="nm">Southern Maryland</td><td class="r">5.7%</td><td class="r">3</td><td class="r">2.8%</td><td class="r">7</td><td class="r">4.7%</td></tr>
+          </tbody>
+        </table>
+        <div class="fnote">The Baltimore Metro and Capital Region hold 82% of Maryland households and supplied <b>83%</b> of Home and 83% of Auto leads. The Lower Shore, home to your office, holds 3% of households and supplied 4 Home and 6 Auto leads. If you want more local volume, the campaign geography can be weighted toward it.</div>
+      </div>
+    </section>
+
+    <section class="block" id="s8" style="margin-bottom:0;">
+      <div class="bhead"><span class="ix">08</span><div><h2>Data &amp; files</h2></div></div>
+      <div class="panel">
+        <ul class="cfg">
+          <li><span class="ck">Source</span><span class="cv">U.S. Census Bureau, American Community Survey 2020&ndash;2024 five-year estimates (released December 2025), tables B01002, B01003, B08201, B11001, B19013, B25001, B25002, B25003, B25007, B25077. Geography: 2020 ZIP Code Tabulation Areas.</span></li>
+          <li><span class="ck">Coverage</span><span class="cv">470 populated Maryland ZIPs. PO-box-only ZIPs have no resident population and no Census profile; traffic from them resolves to the surrounding ZIP.</span></li>
+          <li><span class="ck">Precision</span><span class="cv">All values carry ACS margins of error and are strongest for larger ZIPs. Blank means not published, never zero.</span></li>
+          <li><span class="ck">Files</span><span class="cv"><a href="Keifer-Colbourne-MD-ZIP-Data-10-12-26.csv" style="color:var(--blue)"><b>Keifer-Colbourne-MD-ZIP-Data-10-12-26.csv</b></a> &middot; every ZIP, every column, with the water and wind tier from the companion report.</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+const fill=()=>{document.querySelectorAll('[data-w]').forEach(b=>{b.style.width=b.dataset.w+'%';});};
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){
+  e.target.querySelectorAll('[data-w]').forEach(b=>{b.style.width=b.dataset.w+'%';});
+  io.unobserve(e.target);}});},{threshold:.25});
+document.querySelectorAll('.fpanel').forEach(el=>io.observe(el));
+setTimeout(fill,900);
+window.addEventListener('beforeprint',fill);
+</script>
+<button class="theme-toggle" type="button" onclick="goalToggleTheme()" aria-label="Switch between light and dark mode" title="Switch light/dark mode">
+<svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+<svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+</button>
+</body>
+</html>

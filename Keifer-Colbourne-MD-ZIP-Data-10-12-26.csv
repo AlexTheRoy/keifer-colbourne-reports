@@ -1,0 +1,471 @@
+zip,city,locality,region,population,households,housing_units,owner_occupied,homeownership_rate,median_hh_income,median_home_value,median_age,hh_65plus_share,no_vehicle_share,two_plus_vehicle_share,nri_coastal_flood_score,nri_hurricane_score,nri_inland_flood_score,nri_resilience_score,share_residents_high_coastal_flood_tracts,water_wind_score,water_wind_tier,home_treatment,prime_target
+20601,Waldorf,Charles County,Southern Maryland,26945,10069,10468,8012,79.6,117480,402100,37.4,18.6,3.0,68.3,1.9,72.1,26.3,74.0,0,21.6,Low,No change,Yes
+20602,Waldorf,Charles County,Southern Maryland,28331,10046,10338,6731,67.0,107360,376800,34.2,18.7,4.4,66.2,0.0,72.2,19.0,81.8,0,19.1,Low,No change,Yes
+20603,Waldorf,Charles County,Southern Maryland,31844,11324,11843,9472,83.6,137946,453700,38.4,14.4,3.2,71.0,0.0,72.8,29.0,81.8,0,20.7,Low,No change,Yes
+20606,Abell,St. Mary's County,Southern Maryland,291,131,185,111,84.7,88262,451000,56.5,34.4,0.0,80.9,94.0,81.1,9.4,89.0,0,51.6,High,Quote flood,
+20607,Accokeek,Prince George's County,Capital Region,13750,4231,4281,4083,96.5,151427,559000,40.8,21.2,0.6,82.8,43.7,72.3,34.7,27.9,0,42.1,Low,No change,Yes
+20608,Aquasco,Prince George's County,Capital Region,693,242,293,176,72.7,82083,400000,30.8,30.6,0.0,76.0,93.7,78.1,15.6,24.6,0,58.3,High,Quote flood,
+20609,Avenue,St. Mary's County,Southern Maryland,714,341,370,303,88.9,118102,568400,59.3,34.9,0.0,73.9,94.0,81.1,9.4,89.0,0,51.6,High,Quote flood,
+20611,Bel Alton,Charles County,Southern Maryland,1219,409,440,355,86.8,151607,460900,45.1,30.6,4.6,80.0,82.2,70.4,11.7,81.8,0,46.4,Moderate,No change,
+20612,Benedict,Charles County,Southern Maryland,148,94,94,84,89.4,41118,,63.8,42.6,0.0,38.3,91.2,71.1,13.1,81.8,0,49.9,High,Quote flood,
+20613,Brandywine,Prince George's County,Capital Region,17590,6179,6318,5809,94.0,151422,530000,44.4,21.4,3.0,74.6,19.4,75.2,33.2,30.8,0,33.7,Low,No change,Yes
+20615,Broomes Island,Calvert County,Southern Maryland,460,177,211,177,100.0,,390200,58.6,43.5,0.0,66.1,96.2,86.3,25.0,90.2,100.0,75.6,Extreme,Check appetite,
+20616,Bryans Road,Charles County,Southern Maryland,8057,2695,2700,2569,95.3,128177,387000,37.4,13.7,0.4,73.6,79.7,66.5,12.2,81.8,0,44.8,Moderate,No change,
+20617,Bryantown,Charles County,Southern Maryland,334,159,159,159,100.0,104036,501800,51.5,45.9,0.0,84.3,0.0,73.0,17.9,81.8,0,19.1,Low,No change,
+20618,Bushwood,St. Mary's County,Southern Maryland,1705,656,861,547,83.4,105508,355000,52.0,50.0,0.0,68.1,94.0,81.1,9.4,89.0,0,51.6,High,Quote flood,
+20619,California,St. Mary's County,Southern Maryland,14212,5719,6040,3689,64.5,119432,376800,36.6,17.3,1.7,66.7,39.5,83.8,12.3,89.0,0,33.5,Low,No change,Yes
+20620,Callaway,St. Mary's County,Southern Maryland,1115,389,456,375,96.4,165972,391300,41.6,9.0,4.1,72.0,83.8,81.6,8.8,89.0,28.4,53.8,High,Quote flood,
+20621,Chaptico,St. Mary's County,Southern Maryland,958,534,611,534,100.0,,481100,63.0,29.0,2.6,85.8,82.8,81.1,14.2,89.0,0,48.4,Moderate,No change,
+20622,Charlotte Hall,Charles County,Southern Maryland,5185,1489,1497,1416,95.1,124063,438900,49.4,23.8,6.6,82.9,72.5,80.5,34.8,84.0,0,48.3,Moderate,No change,
+20623,Cheltenham,Prince George's County,Capital Region,2761,917,917,855,93.2,146058,494500,50.5,39.3,6.0,74.5,0.0,65.4,16.9,24.6,0,23.1,Low,No change,
+20624,Clements,St. Mary's County,Southern Maryland,796,296,302,259,87.5,104545,430600,41.3,28.4,1.4,79.4,76.9,83.1,22.2,89.0,0,47.9,Moderate,No change,
+20625,Cobb Island,Charles County,Southern Maryland,849,328,515,328,100.0,,245300,45.8,12.2,0.0,87.8,96.8,78.4,27.6,81.8,100.0,75.5,Extreme,Check appetite,
+20626,Coltons Point,St. Mary's County,Southern Maryland,284,146,173,122,83.6,,,64.5,84.2,0.0,91.1,94.0,81.1,9.4,89.0,0,51.6,High,Quote flood,
+20628,Dameron,St. Mary's County,Southern Maryland,503,199,268,165,82.9,,545800,35.9,45.7,0.0,82.9,96.7,91.0,30.5,89.0,100.0,77.7,Extreme,Check appetite,
+20629,Dowell,Calvert County,Southern Maryland,1150,548,655,530,96.7,87389,403100,58.1,40.9,2.4,66.8,97.2,88.3,20.0,90.2,100.0,75.7,Extreme,Check appetite,
+20630,Drayden,St. Mary's County,Southern Maryland,559,253,253,190,75.1,233411,618100,56.1,44.7,0.0,89.7,90.9,84.3,15.5,89.0,62.4,64.6,Extreme,Check appetite,
+20632,Faulkner,Charles County,Southern Maryland,485,121,168,106,87.6,,474500,41.1,20.7,0.0,65.3,88.2,73.7,18.2,81.8,41.1,58.4,High,Quote flood,
+20634,Great Mills,St. Mary's County,Southern Maryland,7088,2694,3026,1763,65.4,139375,342300,32.0,13.9,3.2,77.3,17.0,82.5,7.3,89.0,0,24.7,Low,No change,
+20636,Hollywood,St. Mary's County,Southern Maryland,10486,3324,3880,2917,87.8,163690,474000,39.4,21.8,0.0,88.2,46.4,86.2,26.0,89.0,0,38.5,Low,No change,Yes
+20637,Hughesville,Charles County,Southern Maryland,6133,2031,2142,1922,94.6,160121,555400,43.5,25.9,1.2,86.1,52.1,72.6,16.1,81.8,0,37.0,Moderate,No change,
+20639,Huntingtown,Calvert County,Southern Maryland,15544,4898,5144,4554,93.0,161422,555100,41.3,25.5,2.3,85.4,48.3,84.8,39.9,90.2,0,40.8,Low,No change,Yes
+20640,Indian Head,Charles County,Southern Maryland,10685,4163,4501,3275,78.7,100593,324600,38.8,24.9,5.7,62.9,76.4,60.7,6.1,81.8,0,41.6,Moderate,No change,Yes
+20645,Issue,Charles County,Southern Maryland,814,298,298,287,96.3,191429,531500,50.9,41.9,0.0,77.9,96.8,78.4,27.6,81.8,100.0,75.5,Extreme,Check appetite,
+20646,La Plata,Charles County,Southern Maryland,21400,7756,8332,6706,86.5,131974,450200,42.9,31.8,4.2,70.7,19.0,72.0,19.0,81.8,0,25.7,Low,No change,Yes
+20650,Leonardtown,St. Mary's County,Southern Maryland,16094,5642,6083,4441,78.7,143116,481700,38.6,23.8,3.6,77.5,84.4,86.7,32.2,89.0,11.3,55.0,Moderate,No change,Yes
+20653,Lexington Park,St. Mary's County,Southern Maryland,26852,11028,11819,6334,57.4,103048,353300,34.8,22.4,5.0,55.3,58.3,82.9,8.7,89.0,10.5,41.5,Moderate,No change,
+20656,Loveville,St. Mary's County,Southern Maryland,87,36,36,9,25.0,,,38.6,0.0,0.0,100.0,75.3,86.4,38.3,89.0,0,50.5,Moderate,No change,
+20657,Lusby,Calvert County,Southern Maryland,20699,7371,8178,6430,87.2,115748,333500,37.4,20.3,1.2,83.0,86.1,80.8,7.7,90.2,15.5,51.5,High,Quote flood,
+20658,Marbury,Charles County,Southern Maryland,866,387,435,334,86.3,104375,340000,48.0,41.3,2.3,69.8,82.1,56.9,1.5,81.8,0,42.2,Moderate,No change,
+20659,Mechanicsville,St. Mary's County,Southern Maryland,24324,8300,8633,7355,88.6,121654,416900,37.5,25.3,4.2,81.0,77.0,82.6,20.9,88.9,0,47.7,Moderate,No change,Yes
+20660,Morganza,St. Mary's County,Southern Maryland,14,14,14,14,100.0,,,,0.0,100.0,0.0,74.3,82.7,21.2,89.0,0,46.8,Moderate,No change,
+20662,Nanjemoy,Charles County,Southern Maryland,2129,887,946,784,88.4,86699,397300,41.8,29.8,10.0,73.7,88.9,65.3,9.1,81.8,0,47.4,High,Quote flood,
+20664,Newburg,Charles County,Southern Maryland,3138,1229,1509,857,69.7,88438,475700,44.3,34.0,4.4,74.6,95.5,77.7,26.3,81.8,91.4,73.0,Extreme,Check appetite,
+20667,Park Hall,St. Mary's County,Southern Maryland,150,45,128,45,100.0,,,39.6,0.0,0.0,100.0,79.3,80.5,5.6,89.0,0.1,45.8,Moderate,No change,
+20670,Patuxent River,St. Mary's County,Southern Maryland,2046,439,513,0,0.0,70371,,22.9,2.3,0.0,76.1,88.8,89.2,13.5,89.0,0,52.0,High,Quote flood,
+20674,Piney Point,St. Mary's County,Southern Maryland,769,291,350,255,87.6,171985,592400,45.3,35.7,2.4,69.1,98.6,87.2,23.0,89.0,100.0,76.5,Extreme,Check appetite,
+20675,Pomfret,Charles County,Southern Maryland,1796,639,639,615,96.2,127269,483700,49.6,52.4,16.6,61.8,8.6,71.7,24.8,81.8,0,22.9,Low,No change,
+20676,Port Republic,Calvert County,Southern Maryland,3218,1252,1378,1091,87.1,156657,509900,45.1,31.4,0.0,87.5,94.6,85.4,19.1,90.2,62.8,66.6,Extreme,Check appetite,
+20677,Port Tobacco,Charles County,Southern Maryland,2088,769,792,746,97.0,165764,576700,51.5,29.9,6.8,83.0,79.6,73.4,22.3,81.8,0,47.7,Moderate,No change,
+20678,Prince Frederick,Calvert County,Southern Maryland,12752,4858,5183,3808,78.4,125732,455100,38.4,25.7,6.4,74.3,66.1,81.9,8.9,90.2,3.7,42.6,Moderate,No change,Yes
+20680,Ridge,St. Mary's County,Southern Maryland,663,288,288,115,39.9,,397500,33.6,35.1,0.0,39.9,96.7,91.0,30.5,89.0,100.0,77.7,Extreme,Check appetite,
+20684,Saint Inigoes,St. Mary's County,Southern Maryland,802,357,357,332,93.0,180060,360500,44.2,36.1,0.0,80.7,96.7,91.0,30.5,89.0,100.0,77.7,Extreme,Check appetite,
+20685,Saint Leonard,Calvert County,Southern Maryland,6866,2394,2676,2269,94.8,119135,450400,42.8,24.8,1.3,85.6,95.1,85.7,21.3,90.2,76.3,69.9,Extreme,Check appetite,
+20686,Saint Marys City,St. Mary's County,Southern Maryland,971,0,0,0,,,,20.3,,,,96.7,91.0,30.5,89.0,100.0,77.7,Extreme,Check appetite,
+20687,Scotland,St. Mary's County,Southern Maryland,415,183,303,167,91.3,,458100,73.1,61.7,0.0,80.9,96.7,91.0,30.5,89.0,100.0,77.7,Extreme,Check appetite,
+20688,Solomons,Calvert County,Southern Maryland,1290,651,717,316,48.5,102950,619200,63.8,66.2,8.4,49.2,97.2,88.3,20.0,90.2,100.0,75.7,Extreme,Check appetite,
+20689,Sunderland,Calvert County,Southern Maryland,1809,618,618,575,93.0,161833,490500,48.1,25.6,7.8,87.7,83.0,75.7,10.7,90.2,0,46.8,Moderate,No change,
+20690,Tall Timbers,St. Mary's County,Southern Maryland,1077,478,655,360,75.3,122750,379700,45.7,31.8,9.4,75.9,98.6,87.2,23.0,89.0,100.0,76.5,Extreme,Check appetite,
+20692,Valley Lee,St. Mary's County,Southern Maryland,505,194,314,194,100.0,201250,468000,59.1,35.6,0.0,90.2,90.1,84.0,14.8,89.0,58.5,63.3,Extreme,Check appetite,
+20693,Welcome,Charles County,Southern Maryland,1496,367,376,336,91.6,126033,375200,39.0,28.1,0.0,86.9,92.0,69.0,11.4,81.8,0,49.5,High,Quote flood,
+20695,White Plains,Charles County,Southern Maryland,16407,5469,5483,4768,87.2,141959,470900,38.9,23.9,2.8,72.2,1.9,72.6,22.9,81.8,0,20.4,Low,No change,Yes
+20701,Annapolis Junction,Howard County,Baltimore Metro,513,358,358,0,0.0,85594,,30.4,0.0,0.0,24.3,0.0,74.6,32.9,86.9,0,21.2,Low,No change,
+20705,Beltsville,Prince George's County,Capital Region,28713,9012,9390,6037,67.0,110351,446700,37.2,20.1,4.1,66.2,0.0,73.9,32.1,25.0,0,27.1,Low,No change,Yes
+20706,Lanham,Prince George's County,Capital Region,42612,13165,13927,9468,71.9,104523,429000,38.0,30.5,6.9,65.3,0.0,70.1,29.7,24.6,0,26.0,Low,No change,Yes
+20707,Laurel,Prince George's County,Capital Region,37278,14782,15504,8113,54.9,107706,423400,37.5,18.4,5.4,51.1,0.0,67.6,12.3,25.6,0,22.8,Low,No change,
+20708,Laurel,Prince George's County,Capital Region,27593,10618,11151,3779,35.6,83367,451500,36.5,17.4,10.5,50.1,0.0,64.4,7.6,24.6,0,21.6,Low,No change,
+20710,Bladensburg,Prince George's County,Capital Region,9801,3233,3574,687,21.2,63810,337800,31.7,27.3,17.6,34.5,38.1,68.8,20.4,24.6,0,37.7,Low,No change,
+20711,Lothian,Anne Arundel County,Baltimore Metro,7731,2438,2492,2256,92.5,113576,429000,40.6,25.1,4.0,74.7,81.7,77.5,28.3,82.3,0,50.1,Moderate,No change,
+20712,Mount Rainier,Prince George's County,Capital Region,9563,4384,4526,1031,23.5,68846,527900,39.3,26.3,15.7,26.5,0.0,58.6,37.2,24.6,0,24.8,Low,No change,
+20714,North Beach,Anne Arundel County,Baltimore Metro,4525,1773,1900,1347,76.0,91099,386300,35.1,30.6,3.6,59.2,93.3,79.1,11.2,88.7,0,51.3,High,Quote flood,
+20715,Bowie,Prince George's County,Capital Region,26915,8985,9259,8137,90.6,143732,452600,40.8,30.1,1.7,75.3,0.0,70.0,17.0,24.6,0,24.1,Low,No change,Yes
+20716,Bowie,Prince George's County,Capital Region,22362,9450,9726,6598,69.8,125034,429600,43.5,25.4,4.1,57.5,5.3,65.1,8.6,24.6,0,23.7,Low,No change,Yes
+20720,Bowie,Prince George's County,Capital Region,25015,8301,8441,7579,91.3,158997,564600,42.4,21.5,0.8,74.8,0.0,74.7,35.0,24.6,0,27.7,Low,No change,Yes
+20721,Bowie,Prince George's County,Capital Region,31032,11056,11290,9891,89.5,163105,580200,48.4,34.1,3.9,75.8,0.0,75.2,49.2,24.6,0,30.0,Low,No change,Yes
+20722,Brentwood,Prince George's County,Capital Region,6264,2210,2335,1434,64.9,91875,381300,38.9,21.3,6.1,53.0,77.5,61.2,52.8,24.6,0,54.8,Moderate,No change,
+20723,Laurel,Howard County,Baltimore Metro,36866,12497,12823,8610,68.9,138113,525400,37.2,20.5,2.0,67.6,0.0,63.3,21.8,88.7,0,17.1,Low,No change,Yes
+20724,Laurel,Anne Arundel County,Baltimore Metro,19369,7414,7627,4521,61.0,118115,426100,36.1,9.6,1.8,62.1,0.0,67.6,6.8,82.3,0,16.3,Low,No change,Yes
+20732,Chesapeake Beach,Calvert County,Southern Maryland,10722,4139,4489,3622,87.5,140304,448700,43.7,31.7,3.6,73.7,87.3,74.7,4.9,90.2,0,47.2,High,Quote flood,
+20733,Churchton,Anne Arundel County,Baltimore Metro,2669,946,1044,901,95.2,126797,394000,43.2,32.2,0.0,78.9,96.6,69.4,18.4,82.3,100.0,72.2,Extreme,Check appetite,
+20735,Clinton,Prince George's County,Capital Region,37464,13470,13793,12218,90.7,126196,432900,47.1,30.3,4.4,72.3,9.1,70.6,29.3,24.6,0,29.2,Low,No change,Yes
+20736,Owings,Calvert County,Southern Maryland,9960,3305,3466,3095,93.6,159851,567700,38.8,24.4,3.4,85.2,84.3,81.2,19.2,90.1,0,49.6,Moderate,No change,Yes
+20737,Riverdale,Prince George's County,Capital Region,24489,6990,7192,3523,50.4,86951,390500,31.7,18.2,12.9,49.7,0.0,67.7,32.4,24.6,0,25.9,Low,No change,
+20740,College Park,Prince George's County,Capital Region,36847,11559,12935,4246,36.7,77317,423900,23.5,16.3,16.9,45.9,0.0,75.7,56.1,24.6,0,31.1,Low,No change,
+20742,College Park,Prince George's County,Capital Region,4350,44,44,0,0.0,,,19.0,0.0,100.0,0.0,0.0,89.4,89.8,24.6,0,38.9,Moderate,No change,
+20743,Capitol Heights,Prince George's County,Capital Region,41093,15610,16442,10320,66.1,76466,341000,37.3,25.8,12.9,44.4,3.9,65.0,11.3,24.6,0,23.6,Low,No change,
+20744,Fort Washington,Prince George's County,Capital Region,54441,19681,20865,16112,81.9,124190,439400,44.9,34.6,5.4,65.8,29.0,67.0,23.1,24.6,0,34.5,Low,No change,Yes
+20745,Oxon Hill,Prince George's County,Capital Region,28605,12087,13111,5398,44.7,75236,375700,40.0,26.5,12.2,37.2,18.9,70.3,21.8,24.6,0,31.5,Low,No change,
+20746,Suitland,Prince George's County,Capital Region,27156,13219,14263,4627,35.0,79330,351500,43.1,20.4,19.6,34.6,0.0,68.5,15.2,24.6,0,23.5,Low,No change,
+20747,District Heights,Prince George's County,Capital Region,38301,16103,17485,8100,50.3,76298,344800,39.5,25.7,11.9,41.1,0.0,66.3,11.8,24.6,0,22.6,Low,No change,
+20748,Temple Hills,Prince George's County,Capital Region,40338,16469,17224,9409,57.1,83162,384300,41.2,29.3,11.7,46.5,0.0,64.8,12.0,24.6,0,22.3,Low,No change,
+20751,Deale,Anne Arundel County,Baltimore Metro,2851,1105,1221,998,90.3,123951,490300,44.4,32.0,0.0,64.9,95.2,70.2,19.5,82.3,89.4,69.9,Extreme,Check appetite,
+20754,Dunkirk,Calvert County,Southern Maryland,7545,2281,2329,2133,93.5,167371,614200,39.3,24.1,0.6,91.2,74.2,80.6,20.8,89.5,0,46.3,Moderate,No change,
+20755,Fort George G Meade,Anne Arundel County,Baltimore Metro,11225,3036,3459,0,0.0,103261,,25.1,3.4,1.4,70.8,0.0,59.9,1.9,82.3,0,14.0,Low,No change,
+20758,Friendship,Anne Arundel County,Baltimore Metro,714,225,260,225,100.0,240847,596600,44.2,28.0,0.0,87.6,89.8,72.6,14.6,83.6,0,49.8,High,Quote flood,
+20759,Fulton,Howard County,Baltimore Metro,6624,1993,2006,1915,96.1,250001,954700,40.6,7.9,0.6,85.4,0.0,71.1,47.3,88.7,0,22.4,Low,No change,
+20762,Andrews Air Force Base,Prince George's County,Capital Region,3130,880,1020,10,1.1,87407,,24.4,1.8,6.4,64.9,0.0,60.8,2.0,24.6,0,20.0,Low,No change,
+20763,Savage,Howard County,Baltimore Metro,2601,1142,1161,470,41.2,76842,419200,35.9,6.7,2.7,60.6,0.0,76.0,44.9,88.7,0,23.1,Low,No change,
+20764,Shady Side,Anne Arundel County,Baltimore Metro,2993,1362,1758,1149,84.4,118857,432700,52.8,36.6,1.0,68.8,96.3,69.0,17.8,82.3,100.0,72.0,Extreme,Check appetite,
+20765,Galesville,Anne Arundel County,Baltimore Metro,668,236,264,223,94.5,149545,617300,53.1,75.8,4.2,56.8,90.7,74.7,15.0,82.3,0,50.7,High,Quote flood,
+20769,Glenn Dale,Prince George's County,Capital Region,6947,2378,2502,2157,90.7,139773,580500,44.1,39.4,1.2,74.1,0.0,73.6,36.5,24.6,0,27.7,Low,No change,
+20770,Greenbelt,Prince George's County,Capital Region,28384,11829,12646,5317,44.9,84096,255200,34.2,24.3,13.3,34.4,0.0,68.1,21.8,24.6,0,24.4,Low,No change,
+20772,Upper Marlboro,Prince George's County,Capital Region,54319,19519,20155,17433,89.3,139403,461300,42.3,22.1,3.9,67.7,12.9,69.2,25.8,24.6,0,29.7,Low,No change,Yes
+20774,Upper Marlboro,Prince George's County,Capital Region,51816,21095,21839,15939,75.6,128259,455300,42.5,27.8,6.7,53.9,4.7,72.9,38.8,24.6,0,29.6,Low,No change,Yes
+20776,Harwood,Anne Arundel County,Baltimore Metro,3315,1212,1278,1143,94.3,149300,616000,45.9,39.7,2.7,70.8,80.9,74.6,17.7,82.3,0,47.6,Moderate,No change,
+20777,Highland,Howard County,Baltimore Metro,3221,1097,1117,1045,95.3,226146,861900,45.5,35.2,0.7,94.3,0.0,67.3,31.0,87.8,0,19.3,Low,No change,
+20778,West River,Anne Arundel County,Baltimore Metro,2211,729,747,729,100.0,205974,716500,47.7,29.2,0.0,80.7,95.0,70.4,17.1,82.3,75.6,66.8,Extreme,Check appetite,
+20779,Tracys Landing,Anne Arundel County,Baltimore Metro,883,408,497,370,90.7,178452,572600,57.1,27.5,0.0,69.6,88.9,70.9,15.4,82.3,0,49.4,High,Quote flood,
+20781,Hyattsville,Prince George's County,Capital Region,13352,4445,4659,2421,54.5,86018,465100,34.4,26.7,9.7,45.6,50.4,69.4,42.0,24.6,0,45.3,Moderate,No change,
+20782,Hyattsville,Prince George's County,Capital Region,34293,12959,13771,5679,43.8,90205,454700,36.6,23.8,13.6,42.6,0.4,64.2,31.2,24.6,0,25.2,Low,No change,
+20783,Hyattsville,Prince George's County,Capital Region,50333,13737,14298,5810,42.3,86737,409000,32.8,17.7,14.9,48.3,0.0,61.5,16.9,24.6,0,22.4,Low,No change,
+20784,Hyattsville,Prince George's County,Capital Region,33831,10608,11032,6123,57.7,86509,369900,35.6,24.2,11.0,55.9,3.0,62.8,10.1,24.6,0,22.7,Low,No change,
+20785,Hyattsville,Prince George's County,Capital Region,40066,15283,16078,7892,51.6,85994,348400,36.2,22.1,9.9,43.4,1.3,67.4,12.7,24.6,0,23.4,Low,No change,
+20794,Jessup,Howard County,Baltimore Metro,16814,3928,4043,2440,62.1,116406,426100,36.8,14.2,2.1,71.2,0.0,68.2,24.4,85.9,0,18.7,Low,No change,Yes
+20812,Glen Echo,Montgomery County,Capital Region,276,99,105,98,99.0,213750,1163500,47.5,36.4,2.0,79.8,73.6,74.6,43.4,51.7,0,52.0,Moderate,No change,
+20814,Bethesda,Montgomery County,Capital Region,32795,14904,16228,7567,50.8,150996,989600,39.9,24.2,14.2,37.8,0.0,68.5,14.8,51.7,0,20.8,Low,No change,
+20815,Chevy Chase,Montgomery County,Capital Region,30505,12937,14039,8583,66.3,194971,1294200,46.2,36.2,10.9,49.5,0.0,66.9,20.6,51.7,0,21.3,Low,No change,Yes
+20816,Bethesda,Montgomery County,Capital Region,18140,6400,6701,5292,82.7,232656,1217200,43.4,31.7,3.5,65.6,14.3,67.8,29.6,51.7,0,27.9,Low,No change,Yes
+20817,Bethesda,Montgomery County,Capital Region,37454,13660,14357,11113,81.4,249332,1183600,45.8,32.7,4.5,67.9,1.2,70.1,28.2,51.7,0,23.5,Low,No change,Yes
+20818,Cabin John,Montgomery County,Capital Region,1539,593,657,565,95.3,245982,1335100,52.7,37.9,2.7,73.7,73.6,74.6,43.4,51.7,0,52.0,Moderate,No change,
+20832,Olney,Montgomery County,Capital Region,25553,8411,8582,7308,86.9,168524,627000,41.0,26.0,1.8,77.0,0.0,68.0,16.8,51.7,0,21.0,Low,No change,Yes
+20833,Brookeville,Montgomery County,Capital Region,7860,2568,2593,2435,94.8,204375,797100,45.2,35.4,1.4,79.9,0.0,72.5,27.5,54.2,0,23.2,Low,No change,
+20837,Poolesville,Montgomery County,Capital Region,6699,2366,2422,2174,91.9,174063,772300,45.9,27.3,0.7,89.5,0.0,82.1,67.6,51.7,0,31.4,Low,No change,
+20838,Barnesville,Montgomery County,Capital Region,306,91,97,89,97.8,250001,775700,34.4,23.1,0.0,92.3,0.0,71.7,11.6,51.7,0,20.9,Low,No change,
+20839,Beallsville,Montgomery County,Capital Region,158,76,76,38,50.0,160329,950000,50.8,50.0,0.0,50.0,0.0,78.0,45.5,51.7,0,27.3,Low,No change,
+20841,Boyds,Montgomery County,Capital Region,9969,2919,3091,2658,91.1,184688,782500,46.8,25.9,0.4,82.8,0.0,71.1,22.4,51.7,0,22.4,Low,No change,
+20842,Dickerson,Montgomery County,Capital Region,2369,802,855,661,82.4,204013,745800,48.5,26.7,1.2,79.8,0.0,76.7,46.5,56.1,0,26.7,Low,No change,
+20850,Rockville,Montgomery County,Capital Region,50353,21159,22418,10635,50.3,125950,714400,41.2,27.6,9.6,46.1,0.0,72.8,20.1,51.7,0,22.4,Low,No change,
+20851,Rockville,Montgomery County,Capital Region,14946,5155,5338,2964,57.5,126411,568900,38.6,23.7,7.4,57.6,0.0,64.0,6.8,51.7,0,18.7,Low,No change,
+20852,Rockville,Montgomery County,Capital Region,48180,21743,23202,9437,43.4,122472,665200,38.5,23.4,11.9,37.9,0.0,68.7,16.4,51.7,0,21.0,Low,No change,
+20853,Rockville,Montgomery County,Capital Region,31851,9692,9998,8338,86.0,159080,631900,41.8,31.4,3.3,74.4,0.0,65.9,14.4,51.7,0,20.2,Low,No change,Yes
+20854,Potomac,Montgomery County,Capital Region,50498,16751,17311,14981,89.4,250001,1165400,47.7,37.8,1.8,79.2,0.0,74.7,45.2,51.7,0,26.5,Low,No change,Yes
+20855,Derwood,Montgomery County,Capital Region,17279,6437,6525,4791,74.4,149110,640300,41.3,25.9,6.5,68.7,0.0,69.9,16.6,51.7,0,21.3,Low,No change,Yes
+20860,Sandy Spring,Montgomery County,Capital Region,2035,735,798,641,87.2,,654200,49.6,47.1,2.4,62.9,0.0,73.3,31.4,51.7,0,24.2,Low,No change,
+20861,Ashton,Montgomery County,Capital Region,2890,917,971,903,98.5,163438,852700,51.0,49.0,1.1,82.6,0.0,76.8,39.7,51.7,0,26.1,Low,No change,
+20862,Brinklow,Montgomery County,Capital Region,430,184,184,184,100.0,189667,810600,56.0,52.2,4.9,87.0,0.0,73.5,30.4,51.7,0,24.1,Low,No change,
+20866,Burtonsville,Montgomery County,Capital Region,15986,5033,5087,3916,77.8,140308,446900,39.9,22.7,4.5,69.8,0.0,63.9,10.7,51.7,0,19.2,Low,No change,Yes
+20868,Spencerville,Montgomery County,Capital Region,198,70,70,70,100.0,143333,622200,54.3,58.6,0.0,100.0,0.0,75.1,32.8,51.7,0,24.8,Low,No change,
+20871,Clarksburg,Montgomery County,Capital Region,30182,9347,9405,8471,90.6,177523,668800,37.7,11.4,4.2,75.9,0.0,69.3,19.6,52.5,0,21.6,Low,No change,Yes
+20872,Damascus,Montgomery County,Capital Region,13983,4659,4826,4141,88.9,141050,504300,41.3,27.5,1.1,75.2,0.0,65.5,9.0,51.7,0,19.3,Low,No change,Yes
+20874,Germantown,Montgomery County,Capital Region,62738,22662,23124,15052,66.4,115022,399000,37.6,17.4,8.3,54.1,0.0,70.0,20.8,51.7,0,21.9,Low,No change,Yes
+20876,Germantown,Montgomery County,Capital Region,26406,8783,8939,5916,67.4,119731,487300,36.8,17.5,5.7,62.4,0.0,64.3,10.6,51.7,0,19.3,Low,No change,Yes
+20877,Gaithersburg,Montgomery County,Capital Region,38546,12519,13272,5400,43.1,92800,474800,36.8,24.1,14.8,47.2,0.0,66.3,9.4,51.7,0,19.5,Low,No change,
+20878,Gaithersburg,Montgomery County,Capital Region,66115,24237,25127,16774,69.2,144313,715800,41.4,24.1,4.7,59.2,0.0,65.1,14.8,51.7,0,20.1,Low,No change,Yes
+20879,Gaithersburg,Montgomery County,Capital Region,25264,8651,8818,6040,69.8,112104,468100,36.4,24.6,6.7,60.6,0.0,66.2,12.8,51.7,0,20.0,Low,No change,Yes
+20880,Washington Grove,Montgomery County,Capital Region,577,289,303,288,99.7,134583,612700,62.2,49.5,1.0,46.0,0.0,68.0,13.4,51.7,0,20.4,Low,No change,
+20882,Gaithersburg,Montgomery County,Capital Region,13751,4693,4738,4518,96.3,184136,737400,46.6,31.0,2.6,83.5,0.0,70.9,21.2,51.7,0,22.2,Low,No change,Yes
+20886,Montgomery Village,Montgomery County,Capital Region,34718,12441,13024,8566,68.9,98542,386500,37.9,22.5,5.9,55.1,0.0,66.8,15.5,51.7,0,20.5,Low,No change,
+20889,Bethesda,Montgomery County,Capital Region,584,21,21,0,0.0,,,21.9,0.0,0.0,47.6,0.0,73.3,14.0,51.7,0,21.6,Low,No change,
+20895,Kensington,Montgomery County,Capital Region,19184,6991,7292,5500,78.7,173625,781500,41.9,31.6,6.5,63.3,0.0,65.1,17.4,51.7,0,20.5,Low,No change,Yes
+20896,Garrett Park,Montgomery County,Capital Region,932,324,341,313,96.6,250001,1005700,49.7,34.6,0.9,70.7,0.0,59.8,4.4,51.7,0,17.4,Low,No change,
+20899,Gaithersburg,Montgomery County,Capital Region,57,57,93,0,0.0,24417,,62.8,43.9,70.2,0.0,0.0,64.4,5.9,51.7,0,18.6,Low,No change,
+20901,Silver Spring,Montgomery County,Capital Region,36435,13114,13495,8927,68.1,131386,589800,39.5,23.4,8.1,53.3,0.0,62.0,19.9,51.7,0,20.2,Low,No change,Yes
+20902,Silver Spring,Montgomery County,Capital Region,54261,18236,19031,11739,64.4,114486,551200,36.6,23.1,12.2,52.4,0.0,66.3,17.4,51.7,0,20.7,Low,No change,Yes
+20903,Silver Spring,Montgomery County,Capital Region,24815,7205,7492,2971,41.2,80768,485700,34.3,17.8,12.5,56.8,0.0,67.3,26.2,48.6,0,22.5,Low,No change,
+20904,Silver Spring,Montgomery County,Capital Region,58646,21212,22261,10383,48.9,96025,560000,40.6,33.8,12.7,49.7,0.0,66.9,19.2,50.1,0,21.3,Low,No change,
+20905,Silver Spring,Montgomery County,Capital Region,19004,5899,6119,5136,87.1,159740,656700,44.8,34.3,2.8,84.1,0.0,73.2,34.4,51.7,0,24.6,Low,No change,Yes
+20906,Silver Spring,Montgomery County,Capital Region,70595,25958,27291,17225,66.4,97521,455800,41.2,37.8,9.4,47.6,0.0,65.4,18.4,51.7,0,20.7,Low,No change,
+20910,Silver Spring,Montgomery County,Capital Region,45943,22123,23517,7854,35.5,112134,730900,35.4,18.2,19.1,29.4,0.0,63.5,13.3,51.7,0,19.5,Low,No change,
+20912,Takoma Park,Montgomery County,Capital Region,25749,9884,10303,4437,44.9,83870,699300,38.2,20.7,16.0,40.6,0.0,59.8,7.4,48.7,0,18.2,Low,No change,
+21001,Aberdeen,Harford County,Baltimore Metro,27168,11204,11610,7090,63.3,83238,285800,37.7,24.1,9.5,53.7,31.2,65.9,34.8,86.4,0,30.7,Low,No change,
+21005,Aberdeen Proving Ground,Harford County,Baltimore Metro,2202,835,948,23,2.8,125208,,33.1,10.8,1.1,56.3,77.5,64.1,13.6,86.4,0,43.3,Moderate,No change,
+21009,Abingdon,Harford County,Baltimore Metro,33679,12940,13256,10663,82.4,121660,357100,36.2,20.0,3.3,70.7,25.0,63.4,21.0,86.4,0,26.0,Low,No change,Yes
+21010,Gunpowder,Harford County,Baltimore Metro,239,55,117,0,0.0,99410,,19.3,0.0,0.0,76.4,78.4,59.4,3.7,86.4,0,41.2,Moderate,No change,
+21012,Arnold,Anne Arundel County,Baltimore Metro,22570,8275,8542,7140,86.3,139432,563800,38.0,25.3,1.6,70.8,67.6,66.3,8.2,82.3,0,39.9,Moderate,No change,Yes
+21013,Baldwin,Baltimore County,Baltimore Metro,5610,1843,1894,1729,93.8,171354,572100,40.7,41.0,0.6,81.0,0.0,76.6,40.2,82.7,0,23.1,Low,No change,
+21014,Bel Air,Harford County,Baltimore Metro,38707,15143,15503,11476,75.8,116970,429900,41.3,30.1,5.5,64.4,0.0,69.9,35.2,86.4,0,20.6,Low,No change,Yes
+21015,Bel Air,Harford County,Baltimore Metro,30013,11012,11408,9816,89.1,137281,443400,40.4,26.7,3.2,75.0,8.7,70.5,38.6,86.4,0,24.3,Low,No change,Yes
+21017,Belcamp,Harford County,Baltimore Metro,6648,2669,2669,1972,73.9,106831,258300,37.6,20.5,4.2,60.5,79.2,61.9,14.5,86.4,0,43.6,Moderate,No change,
+21023,Butler,Baltimore County,Baltimore Metro,66,30,30,30,100.0,84474,881600,42.4,20.0,0.0,80.0,0.0,69.9,43.7,81.2,0,22.4,Low,No change,
+21028,Churchville,Harford County,Baltimore Metro,3103,1066,1134,908,85.2,137586,512400,44.6,36.4,0.4,81.8,3.6,62.6,9.6,86.4,0,16.6,Low,No change,
+21029,Clarksville,Howard County,Baltimore Metro,13607,4056,4124,3798,93.6,243542,912100,43.1,18.7,1.0,92.3,0.0,67.6,34.4,88.7,0,19.8,Low,No change,Yes
+21030,Cockeysville,Baltimore County,Baltimore Metro,25827,10900,11421,4764,43.7,89015,450700,36.8,24.9,5.5,50.6,0.0,74.4,38.4,81.2,0,22.5,Low,No change,
+21031,Hunt Valley,Baltimore County,Baltimore Metro,26,19,19,0,0.0,,,,0.0,0.0,0.0,0.0,88.2,92.7,81.2,0,33.4,Moderate,No change,
+21032,Crownsville,Anne Arundel County,Baltimore Metro,8850,3149,3259,2819,89.5,168653,682100,49.1,30.6,0.9,81.1,69.4,70.7,20.3,82.3,0,43.2,Moderate,No change,Yes
+21034,Darlington,Harford County,Baltimore Metro,2846,1132,1151,1016,89.8,78047,401500,45.1,34.4,2.2,74.6,34.0,66.0,17.9,86.4,0,29.1,Low,No change,
+21035,Davidsonville,Anne Arundel County,Baltimore Metro,7879,2671,2866,2521,94.4,188347,831500,44.9,28.5,0.0,86.7,78.7,74.2,21.6,82.3,0,47.4,Moderate,No change,
+21036,Dayton,Howard County,Baltimore Metro,2569,882,905,876,99.3,218036,881300,48.8,43.7,11.9,72.2,0.0,72.4,49.2,88.7,0,23.0,Low,No change,
+21037,Edgewater,Anne Arundel County,Baltimore Metro,20854,7901,8517,7006,88.7,145787,560300,41.3,26.9,3.2,76.4,90.8,66.0,10.4,82.3,0,48.3,High,Quote flood,
+21040,Edgewood,Harford County,Baltimore Metro,24960,9795,10241,6965,71.1,81704,238000,36.4,24.5,8.0,51.9,58.7,69.2,36.8,86.4,0,41.2,Moderate,No change,
+21042,Ellicott City,Howard County,Baltimore Metro,43327,15099,15368,12786,84.7,190061,706400,45.1,32.3,2.4,77.6,0.0,69.0,40.3,88.7,0,21.0,Low,No change,Yes
+21043,Ellicott City,Howard County,Baltimore Metro,48525,17568,18133,11755,66.9,148125,620900,40.3,23.5,3.2,63.3,0.0,67.6,31.7,88.5,0,19.4,Low,No change,Yes
+21044,Columbia,Howard County,Baltimore Metro,44114,18293,19811,11037,60.3,135057,566500,40.0,26.8,5.2,55.8,0.0,67.5,35.1,88.7,0,19.9,Low,No change,Yes
+21045,Columbia,Howard County,Baltimore Metro,40034,15414,15780,10534,68.3,118563,453700,39.6,29.0,7.4,58.4,0.0,65.8,20.6,88.7,0,17.4,Low,No change,Yes
+21046,Columbia,Howard County,Baltimore Metro,15608,6165,6382,4016,65.1,127813,479500,37.3,18.2,3.9,65.8,0.0,67.3,27.6,88.7,0,18.7,Low,No change,Yes
+21047,Fallston,Harford County,Baltimore Metro,13852,4810,4899,4716,98.0,157500,552500,45.4,32.0,0.0,86.7,0.0,75.2,39.3,86.4,0,22.3,Low,No change,Yes
+21048,Finksburg,Carroll County,Baltimore Metro,10481,3723,3824,3640,97.8,131921,459000,41.7,28.3,1.8,81.2,,67.0,43.9,73.7,0,22.6,Low,No change,Yes
+21050,Forest Hill,Harford County,Baltimore Metro,17466,6422,6497,5717,89.0,125208,456800,44.1,33.8,2.9,73.2,0.0,70.7,35.7,86.4,0,20.9,Low,No change,Yes
+21051,Fork,Baltimore County,Baltimore Metro,172,59,59,59,100.0,232721,698500,44.5,8.5,0.0,100.0,0.0,73.0,22.2,81.2,0,19.8,Low,No change,
+21052,Fort Howard,Baltimore County,Baltimore Metro,409,168,168,141,83.9,77300,293200,27.8,0.0,0.0,28.6,97.1,65.5,32.3,81.2,100.0,73.8,Extreme,Check appetite,
+21053,Freeland,Baltimore County,Baltimore Metro,2929,1191,1318,1063,89.3,89497,408300,44.5,29.6,0.5,85.8,0.0,79.6,63.2,81.2,0,27.3,Low,No change,
+21054,Gambrills,Anne Arundel County,Baltimore Metro,16386,5497,5534,4630,84.2,163825,611000,40.9,27.9,5.5,73.7,7.4,70.3,15.9,82.3,0,20.8,Low,No change,Yes
+21056,Gibson Island,Anne Arundel County,Baltimore Metro,291,145,306,145,100.0,250001,2000001,66.6,87.6,0.0,87.6,93.3,73.8,17.1,82.3,0,51.8,High,Quote flood,
+21057,Glen Arm,Baltimore County,Baltimore Metro,4386,1545,1603,1315,85.1,145924,623200,41.3,35.5,8.2,76.4,0.0,72.5,23.2,81.2,0,19.9,Low,No change,
+21060,Glen Burnie,Anne Arundel County,Baltimore Metro,39730,15994,16350,12383,77.4,104715,377100,37.7,22.1,6.1,65.0,64.6,69.0,11.3,82.3,0,39.9,Moderate,No change,Yes
+21061,Glen Burnie,Anne Arundel County,Baltimore Metro,57230,22135,23025,12467,56.3,87751,339100,35.9,22.7,8.7,55.8,10.2,65.3,6.2,82.3,0,19.3,Low,No change,
+21071,Glyndon,Baltimore County,Baltimore Metro,404,130,130,130,100.0,213500,450500,33.0,23.1,0.0,93.1,0.0,76.3,45.6,81.2,0,24.0,Low,No change,
+21074,Hampstead,Carroll County,Baltimore Metro,14777,5889,6054,5100,86.6,108536,378100,42.9,26.8,1.3,70.1,0.0,70.2,38.4,74.3,0,22.4,Low,No change,Yes
+21075,Elkridge,Howard County,Baltimore Metro,37363,13038,13443,8356,64.1,135303,455300,34.1,13.3,3.8,66.5,15.5,64.8,18.4,88.7,0,22.3,Low,No change,Yes
+21076,Hanover,Anne Arundel County,Baltimore Metro,24268,9785,10090,6438,65.8,146869,513300,38.1,15.9,4.6,64.5,13.7,70.7,14.2,83.4,0,22.7,Low,No change,Yes
+21077,Harmans,Anne Arundel County,Baltimore Metro,63,35,35,27,77.1,,,29.9,0.0,0.0,77.1,5.8,72.8,21.0,82.3,0,21.5,Low,No change,
+21078,Havre De Grace,Harford County,Baltimore Metro,20030,8476,8869,6525,77.0,106667,385600,46.8,32.8,5.7,63.6,41.8,68.9,50.5,86.4,0,37.3,Low,No change,Yes
+21082,Hydes,Baltimore County,Baltimore Metro,626,274,274,221,80.7,145571,485500,54.2,28.5,0.0,77.7,0.0,73.1,22.8,81.6,0,19.9,Low,No change,
+21084,Jarrettsville,Harford County,Baltimore Metro,7070,2724,2765,2550,93.6,121509,448400,44.0,36.3,1.1,83.1,0.0,77.7,57.4,86.4,0,25.5,Low,No change,
+21085,Joppa,Harford County,Baltimore Metro,17307,6801,7169,5713,84.0,113714,348600,42.3,31.6,2.0,71.9,63.2,70.8,36.4,86.4,0,43.1,Moderate,No change,Yes
+21087,Kingsville,Baltimore County,Baltimore Metro,5537,2151,2260,2008,93.4,129188,534300,52.0,40.0,6.0,80.7,33.4,64.8,10.2,82.1,0,28.0,Low,No change,
+21090,Linthicum Heights,Anne Arundel County,Baltimore Metro,10652,3979,4255,3312,83.2,138119,410400,36.8,23.8,1.7,75.5,45.7,67.6,9.3,82.3,0,32.7,Low,No change,Yes
+21093,Lutherville Timonium,Baltimore County,Baltimore Metro,39100,15688,16418,12356,78.8,125528,477700,45.3,36.2,4.7,61.5,0.0,73.0,25.3,81.2,0,20.3,Low,No change,Yes
+21102,Manchester,Carroll County,Baltimore Metro,12162,4413,4511,3944,89.4,135069,392800,44.5,26.2,3.2,81.2,0.0,71.6,45.8,75.0,0,23.7,Low,No change,Yes
+21104,Marriottsville,Howard County,Baltimore Metro,6052,2097,2204,2035,97.0,191804,680200,43.1,28.5,0.0,85.6,0.0,64.1,19.2,82.7,0,17.4,Low,No change,
+21105,Maryland Line,Baltimore County,Baltimore Metro,36,14,14,0,0.0,,,,100.0,0.0,100.0,0.0,82.1,80.9,81.2,0,30.4,Low,No change,
+21108,Millersville,Anne Arundel County,Baltimore Metro,18643,6648,6797,5884,88.5,151324,555000,41.3,30.6,1.3,80.2,27.0,67.8,14.5,82.3,0,27.0,Low,No change,Yes
+21111,Monkton,Baltimore County,Baltimore Metro,4714,1908,1939,1822,95.5,136304,607200,48.7,37.2,0.0,76.4,0.0,79.6,65.9,82.7,0,27.5,Low,No change,
+21113,Odenton,Anne Arundel County,Baltimore Metro,36705,15325,15938,9361,61.1,125639,432000,35.5,21.0,3.4,58.9,0.0,68.9,14.0,82.3,0,17.6,Low,No change,Yes
+21114,Crofton,Anne Arundel County,Baltimore Metro,25590,9350,9672,7555,80.8,141344,490400,36.4,19.8,1.0,65.1,0.4,68.8,16.3,82.3,0,18.1,Low,No change,Yes
+21117,Owings Mills,Baltimore County,Baltimore Metro,62816,25193,26690,13862,55.0,101831,387400,36.7,22.3,6.4,51.5,0.0,74.7,34.7,81.2,0,22.0,Low,No change,
+21120,Parkton,Baltimore County,Baltimore Metro,7440,2599,2622,2437,93.8,162052,580900,40.8,26.4,0.8,88.5,0.0,79.2,62.5,81.2,0,27.1,Low,No change,
+21122,Pasadena,Anne Arundel County,Baltimore Metro,61566,22423,23675,19424,86.6,127587,425800,40.2,25.2,2.0,79.1,74.0,66.3,9.2,82.3,0,42.3,Moderate,No change,Yes
+21128,Perry Hall,Baltimore County,Baltimore Metro,15501,5609,5917,4709,84.0,128069,449500,40.1,28.9,4.6,66.4,3.1,73.9,29.1,81.2,0,22.1,Low,No change,Yes
+21130,Perryman,Harford County,Baltimore Metro,112,71,71,21,29.6,17336,,21.7,14.1,0.0,0.0,84.1,77.8,70.4,86.4,0,56.9,Moderate,No change,
+21131,Phoenix,Baltimore County,Baltimore Metro,7141,2600,2658,2559,98.4,197619,686000,49.4,35.7,1.4,91.4,0.0,79.1,56.0,81.2,0,26.1,Low,No change,
+21132,Pylesville,Harford County,Baltimore Metro,3160,1072,1180,1052,98.1,132288,485600,41.0,21.5,0.7,83.1,0.0,78.9,59.6,86.4,0,26.1,Low,No change,
+21133,Randallstown,Baltimore County,Baltimore Metro,31398,12204,12460,8350,68.4,80480,322800,47.1,32.8,10.2,55.5,0.0,70.9,23.1,81.2,0,19.5,Low,No change,
+21136,Reisterstown,Baltimore County,Baltimore Metro,32088,13048,13837,10363,79.4,118500,422100,46.3,30.3,7.8,63.5,0.0,73.4,28.4,81.1,0,20.8,Low,No change,Yes
+21140,Riva,Anne Arundel County,Baltimore Metro,4417,1495,1527,1475,98.7,170156,634700,43.6,33.7,0.3,84.2,90.1,68.9,13.2,82.3,0,49.1,High,Quote flood,
+21144,Severn,Anne Arundel County,Baltimore Metro,37118,13019,13466,10453,80.3,136684,483700,37.7,24.8,1.9,75.0,0.0,69.7,17.2,82.3,0,18.3,Low,No change,Yes
+21146,Severna Park,Anne Arundel County,Baltimore Metro,28591,9878,10315,8826,89.4,172122,659800,41.5,31.6,2.5,78.9,84.8,68.0,16.5,82.3,0,47.5,Moderate,No change,Yes
+21152,Sparks Glencoe,Baltimore County,Baltimore Metro,6459,2609,2619,1902,72.9,121350,495700,44.9,28.9,0.5,70.3,0.0,78.8,73.4,81.2,0,28.7,Low,No change,
+21153,Stevenson,Baltimore County,Baltimore Metro,456,223,223,198,88.8,220179,902300,65.8,72.2,21.5,55.2,0.0,73.9,32.8,81.2,0,21.6,Low,No change,
+21154,Street,Harford County,Baltimore Metro,6544,2403,2692,2066,86.0,97658,455400,50.0,36.5,0.8,79.0,4.1,76.8,52.0,86.4,0,25.9,Low,No change,
+21155,Upperco,Baltimore County,Baltimore Metro,3313,1032,1229,845,81.9,123158,479500,33.7,33.5,2.9,75.7,0.0,76.9,52.2,78.9,0,25.3,Low,No change,
+21156,Upper Falls,Baltimore County,Baltimore Metro,204,65,65,65,100.0,,793800,37.3,0.0,0.0,100.0,73.0,64.0,7.1,81.2,0,41.3,Moderate,No change,
+21157,Westminster,Carroll County,Baltimore Metro,38984,14785,15471,11351,76.8,104966,424100,43.2,31.4,6.2,71.7,,67.6,30.1,73.7,0,20.7,Low,No change,Yes
+21158,Westminster,Carroll County,Baltimore Metro,22083,8451,8768,6691,79.2,109827,384700,41.6,28.4,3.9,71.9,,66.7,32.5,73.7,0,20.8,Low,No change,Yes
+21160,Whiteford,Harford County,Baltimore Metro,2441,968,1037,785,81.1,106181,391300,52.7,27.3,0.0,71.8,0.0,80.9,67.9,86.4,0,27.7,Low,No change,
+21161,White Hall,Harford County,Baltimore Metro,5221,1887,1937,1722,91.3,108094,472600,46.7,42.4,1.9,85.2,0.0,78.5,60.6,83.9,0,26.4,Low,No change,
+21162,White Marsh,Baltimore County,Baltimore Metro,4639,1559,1663,1386,88.9,157813,451600,37.5,22.0,2.0,82.9,72.0,73.8,18.5,81.2,0,44.6,Moderate,No change,
+21163,Woodstock,Baltimore County,Baltimore Metro,7539,2680,2816,2279,85.0,134672,602800,45.4,27.5,1.0,70.7,0.0,69.4,17.5,84.0,0,18.1,Low,No change,
+21201,Baltimore,Baltimore city,Baltimore Metro,18307,11345,12185,1244,11.0,45640,275300,33.6,17.7,47.8,8.6,22.9,77.4,46.1,70.8,0,33.3,Low,No change,
+21202,Baltimore,Baltimore city,Baltimore Metro,20683,10861,12703,2320,21.4,59377,271800,33.7,13.7,37.8,15.8,45.9,73.9,46.1,70.8,0,40.7,Low,No change,
+21204,Towson,Baltimore County,Baltimore Metro,19845,8747,9588,3995,45.7,99606,594800,34.8,29.0,8.6,45.1,0.0,71.2,20.7,81.2,0,19.2,Low,No change,
+21205,Baltimore,Baltimore city,Baltimore Metro,13013,5111,6291,1860,36.4,43176,96100,35.9,24.2,36.5,21.2,6.2,66.2,12.2,70.8,0,20.2,Low,No change,
+21206,Baltimore,Baltimore city,Baltimore Metro,48902,20480,22067,10897,53.2,64531,216100,36.7,21.9,19.0,40.0,0.0,66.2,16.9,73.2,0,18.5,Low,No change,
+21207,Gwynn Oak,Baltimore County,Baltimore Metro,47099,18976,20199,11520,60.7,67060,260300,39.5,30.9,11.4,45.2,0.0,65.5,18.5,78.5,0,18.0,Low,No change,
+21208,Pikesville,Baltimore County,Baltimore Metro,37276,15735,16392,10527,66.9,90131,337900,46.0,40.9,13.4,48.4,0.0,72.2,28.4,80.6,0,20.6,Low,No change,
+21209,Baltimore,Baltimore County,Baltimore Metro,30126,11621,12071,6683,57.5,91437,440800,35.6,32.9,7.9,50.9,0.0,69.3,22.4,76.3,0,19.6,Low,No change,
+21210,Baltimore,Baltimore city,Baltimore Metro,14134,5202,5595,3200,61.5,112428,547300,32.0,30.6,11.0,45.9,0.0,73.1,36.2,71.3,0,22.9,Low,No change,Yes
+21211,Baltimore,Baltimore city,Baltimore Metro,14969,8192,8880,4958,60.5,82828,284500,37.5,23.4,14.7,33.7,0.0,65.6,16.9,70.8,0,18.6,Low,No change,
+21212,Baltimore,Baltimore city,Baltimore Metro,33974,12971,13827,8923,68.8,96685,373700,38.5,27.3,13.1,46.2,0.0,66.1,15.3,74.7,0,18.0,Low,No change,
+21213,Baltimore,Baltimore city,Baltimore Metro,28058,12009,14492,6241,52.0,51344,155000,38.3,24.4,34.1,25.2,0.6,64.9,12.0,70.8,0,17.9,Low,No change,
+21214,Baltimore,Baltimore city,Baltimore Metro,21092,8466,9107,6652,78.6,86366,259500,40.8,23.4,7.3,52.7,0.0,62.5,11.2,70.8,0,17.1,Low,No change,
+21215,Baltimore,Baltimore city,Baltimore Metro,52229,21740,25215,11918,54.8,51587,201200,41.2,36.9,30.9,29.2,0.0,72.6,20.3,70.9,0,20.5,Low,No change,
+21216,Baltimore,Baltimore city,Baltimore Metro,29426,12307,15580,6181,50.2,42031,147800,34.7,28.2,38.8,24.6,0.0,68.5,23.6,70.8,0,20.2,Low,No change,
+21217,Baltimore,Baltimore city,Baltimore Metro,30792,15332,19995,4603,30.0,38409,180100,38.8,27.9,44.1,14.2,0.0,68.8,27.5,70.8,0,20.8,Low,No change,
+21218,Baltimore,Baltimore city,Baltimore Metro,44014,18703,21738,9000,48.1,62488,242500,35.0,25.1,31.4,26.5,0.0,72.1,31.0,70.8,0,22.0,Low,No change,
+21219,Sparrows Point,Baltimore County,Baltimore Metro,9565,3632,3967,3241,89.2,110438,384600,42.7,35.1,5.0,70.3,94.3,70.1,31.3,81.2,21.1,57.8,High,Quote flood,
+21220,Middle River,Baltimore County,Baltimore Metro,42824,16544,17918,11388,68.8,81817,300100,37.7,21.9,6.7,53.0,60.5,69.0,18.8,81.2,9.3,41.5,Moderate,No change,
+21221,Essex,Baltimore County,Baltimore Metro,43487,17286,18442,10796,62.5,67340,271500,42.4,29.6,10.9,52.2,70.2,68.0,9.5,81.2,0,41.5,Moderate,No change,
+21222,Dundalk,Baltimore County,Baltimore Metro,59407,22512,23982,14612,64.9,64141,215900,36.4,26.8,12.7,48.0,54.3,63.7,8.2,81.0,0,34.9,Moderate,No change,
+21223,Baltimore,Baltimore city,Baltimore Metro,19572,8587,12929,2747,32.0,45840,110600,38.6,24.7,41.6,17.2,1.6,67.5,21.4,70.8,0,20.2,Low,No change,
+21224,Baltimore,Baltimore city,Baltimore Metro,47465,20962,23547,12273,58.5,89017,295200,34.3,18.5,12.1,42.5,23.1,68.6,16.4,72.7,0,27.0,Low,No change,
+21225,Brooklyn,Anne Arundel County,Baltimore Metro,34062,12915,14321,6412,49.6,54020,229000,34.2,20.5,21.9,38.2,43.8,64.4,9.1,76.5,0,31.9,Low,No change,
+21226,Curtis Bay,Baltimore city,Baltimore Metro,6674,2688,2990,1640,61.0,82635,330500,33.6,18.9,8.8,44.1,86.9,81.8,26.9,78.2,0,53.0,High,Quote flood,
+21227,Halethorpe,Baltimore County,Baltimore Metro,34907,13396,14095,8668,64.7,85986,289400,36.2,26.0,10.4,53.1,40.0,68.1,14.0,80.8,0,31.6,Low,No change,
+21228,Catonsville,Baltimore County,Baltimore Metro,50492,19788,20482,14042,71.0,112656,404700,42.2,35.8,8.8,55.5,0.0,69.3,13.6,81.2,0,17.8,Low,No change,Yes
+21229,Baltimore,Baltimore city,Baltimore Metro,46679,19262,21006,10961,56.9,60047,201300,37.5,28.5,21.5,34.3,0.0,64.2,10.9,72.6,0,17.2,Low,No change,
+21230,Baltimore,Baltimore city,Baltimore Metro,32977,16496,18478,8370,50.7,91842,330100,33.9,16.2,15.7,36.7,59.6,70.3,23.4,70.8,0,41.3,Moderate,No change,
+21231,Baltimore,Baltimore city,Baltimore Metro,14969,8136,9514,2783,34.2,85254,350100,32.7,12.3,21.6,25.2,40.3,67.6,18.9,70.8,29.4,39.3,High,Quote flood,
+21234,Parkville,Baltimore County,Baltimore Metro,66334,27639,29649,17820,64.5,83517,288100,40.5,29.9,6.9,51.0,0.0,63.5,7.1,80.1,0,15.8,Low,No change,
+21236,Nottingham,Baltimore County,Baltimore Metro,39514,15698,16349,10924,69.6,95149,327200,38.4,26.8,5.9,57.3,0.4,66.2,11.3,81.0,0,17.0,Low,No change,
+21237,Rosedale,Baltimore County,Baltimore Metro,31425,12417,13121,7717,62.1,91693,295600,41.8,26.4,8.8,56.6,29.0,72.1,23.1,80.8,0,30.0,Low,No change,
+21239,Baltimore,Baltimore city,Baltimore Metro,27346,12080,12755,6671,55.2,62650,207400,37.1,28.5,15.9,32.7,0.0,67.4,24.9,72.6,0,20.0,Low,No change,
+21244,Windsor Mill,Baltimore County,Baltimore Metro,38208,14157,14868,6944,49.0,85114,282600,36.0,21.5,8.3,48.9,0.0,71.5,19.4,81.2,0,19.1,Low,No change,
+21250,Baltimore,Baltimore County,Baltimore Metro,2834,0,0,0,,,,19.9,,,,0.0,82.4,13.1,81.2,0,20.3,Low,No change,
+21251,Baltimore,Baltimore city,Baltimore Metro,191,0,0,0,,,,19.5,,,,0.0,68.2,19.7,70.8,0,19.5,Low,No change,
+21252,Towson,Baltimore County,Baltimore Metro,4865,12,12,0,0.0,,,20.0,0.0,0.0,0.0,0.0,86.6,46.5,81.2,0,26.2,Low,No change,
+21285,Towson,Baltimore County,Baltimore Metro,3,0,0,0,,,,,,,,0.0,86.6,46.5,81.2,0,26.2,Low,No change,
+21286,Towson,Baltimore County,Baltimore Metro,21853,9765,10343,5846,59.9,93808,430100,39.6,31.9,11.9,51.4,0.0,71.5,15.1,81.2,0,18.4,Low,No change,
+21401,Annapolis,Anne Arundel County,Baltimore Metro,38629,17984,19567,11755,65.4,123381,601400,47.7,40.1,9.3,49.8,81.1,74.1,20.8,82.3,0,48.1,Moderate,No change,Yes
+21402,Annapolis,Anne Arundel County,Baltimore Metro,4303,441,492,0,0.0,80893,,21.0,7.9,2.3,55.8,86.1,64.9,4.3,82.3,0,45.5,High,Quote flood,
+21403,Annapolis,Anne Arundel County,Baltimore Metro,32681,14359,15460,9923,69.1,123329,582500,45.3,33.5,6.2,51.1,81.2,65.2,10.3,82.3,18.2,48.4,Moderate,No change,Yes
+21405,Annapolis,Anne Arundel County,Baltimore Metro,495,221,338,210,95.0,160703,986100,64.5,55.2,0.0,72.4,88.1,71.9,14.9,82.3,0,49.2,High,Quote flood,
+21409,Annapolis,Anne Arundel County,Baltimore Metro,20289,7312,7575,6657,91.0,147151,535500,42.5,30.6,1.8,78.6,82.5,67.7,8.9,82.3,0,45.5,Moderate,No change,Yes
+21502,Cumberland,Allegany County,Western Maryland,41015,16268,19416,11707,72.0,60725,153700,42.8,36.2,10.7,54.9,,57.4,47.9,73.4,0,21.3,Low,No change,
+21520,Accident,Garrett County,Western Maryland,1918,787,978,636,80.8,59852,298600,43.3,27.6,6.4,77.4,,69.8,53.1,43.6,0,27.6,Low,No change,
+21521,Barton,Garrett County,Western Maryland,1400,568,656,509,89.6,64194,107500,54.1,50.9,1.4,74.1,,57.1,71.6,67.3,0,25.4,Low,No change,
+21523,Bloomington,Garrett County,Western Maryland,150,60,60,53,88.3,59063,98100,37.6,25.0,0.0,88.3,,56.7,38.4,43.6,0,22.7,Low,No change,
+21524,Corriganville,Allegany County,Western Maryland,710,262,262,197,75.2,76417,158500,36.1,29.8,11.1,74.8,,49.8,38.8,73.4,0,18.5,Low,No change,
+21529,Ellerslie,Allegany County,Western Maryland,514,291,318,205,70.4,37240,163300,54.3,37.8,2.1,49.8,,49.8,38.8,73.4,0,18.5,Low,No change,
+21530,Flintstone,Allegany County,Western Maryland,1404,648,940,536,82.7,63542,202400,56.0,36.3,5.9,67.7,,65.6,57.7,73.4,0,24.4,Low,No change,
+21531,Friendsville,Garrett County,Western Maryland,2487,1101,1351,934,84.8,63750,180300,48.8,35.9,7.2,63.7,,72.5,59.6,43.6,0,29.1,Low,No change,
+21532,Frostburg,Allegany County,Western Maryland,13647,5511,6316,3511,63.7,63690,182400,34.8,26.7,8.1,52.5,,56.4,22.3,71.6,0,17.5,Low,No change,
+21536,Grantsville,Garrett County,Western Maryland,3833,1654,1756,1253,75.8,64205,201300,47.7,34.8,7.6,56.8,,64.7,41.2,43.6,0,24.8,Low,No change,
+21538,Kitzmiller,Garrett County,Western Maryland,678,343,421,268,78.1,61250,,38.0,16.9,3.2,63.3,,56.7,38.4,43.6,0,22.7,Low,No change,
+21539,Lonaconing,Garrett County,Western Maryland,1975,885,1141,563,63.6,57708,130200,45.6,42.4,13.1,51.5,,56.7,71.3,68.1,0,25.2,Low,No change,
+21540,Luke,Allegany County,Western Maryland,89,35,47,31,88.6,81250,51000,44.5,14.3,0.0,25.7,,61.8,81.4,73.4,0,27.2,Low,No change,
+21541,Mc Henry,Garrett County,Western Maryland,1335,562,1929,479,85.2,82955,342500,44.0,27.9,9.1,46.4,,67.9,44.0,43.6,0,25.8,Low,No change,
+21542,Midland,Allegany County,Western Maryland,84,34,40,14,41.2,,103100,26.7,23.5,44.1,38.2,,52.6,35.4,73.4,0,18.5,Low,No change,
+21543,Midlothian,Allegany County,Western Maryland,185,122,122,103,84.4,,190200,30.9,50.0,0.0,32.0,,52.6,35.4,73.4,0,18.5,Low,No change,
+21545,Mount Savage,Allegany County,Western Maryland,1694,709,810,570,80.4,60264,130700,43.1,30.3,8.0,61.6,,53.0,29.4,73.4,0,17.7,Low,No change,
+21550,Oakland,Garrett County,Western Maryland,13691,6100,8529,4662,76.4,64921,233300,49.4,38.1,9.6,55.5,,64.8,41.8,43.6,0,24.9,Low,No change,
+21555,Oldtown,Allegany County,Western Maryland,1470,591,831,487,82.4,53266,197700,42.6,23.9,1.7,84.8,,65.0,57.2,73.4,0,24.2,Low,No change,
+21557,Rawlings,Allegany County,Western Maryland,1481,715,817,535,74.8,34936,123300,45.3,29.5,0.0,57.3,,59.8,46.4,73.4,0,21.6,Low,No change,
+21560,Spring Gap,Allegany County,Western Maryland,9,9,9,9,100.0,,,,100.0,0.0,0.0,,61.7,54.2,73.4,0,23.1,Low,No change,
+21561,Swanton,Garrett County,Western Maryland,2412,1107,2560,972,87.8,73858,328700,57.0,45.0,3.7,67.9,,57.7,31.2,43.6,0,21.9,Low,No change,
+21562,Westernport,Garrett County,Western Maryland,3032,1256,1539,918,73.1,47500,98500,43.8,30.8,5.6,61.5,,61.0,73.7,70.0,0,26.3,Low,No change,
+21601,Easton,Talbot County,Mid & Upper Shore,24671,10525,11710,7385,70.2,83680,376400,48.1,42.5,9.5,57.0,85.9,87.2,27.8,96.6,20.8,56.2,High,Quote flood,
+21607,Barclay,Queen Anne's County,Mid & Upper Shore,597,172,179,130,75.6,91250,404500,48.0,31.4,0.0,77.9,0.0,82.3,19.4,84.4,0,20.9,Low,No change,
+21610,Betterton,Kent County,Mid & Upper Shore,391,132,246,108,81.8,86250,226700,39.2,31.1,5.3,62.1,91.3,91.3,37.2,82.0,0,57.6,High,Quote flood,
+21612,Bozman,Talbot County,Mid & Upper Shore,470,210,392,210,100.0,117794,680000,70.2,65.7,0.0,70.0,97.6,85.4,15.9,96.6,100.0,74.0,Extreme,Check appetite,
+21613,Cambridge,Dorchester County,Mid & Upper Shore,17926,7790,9413,4023,51.6,53890,283900,43.2,35.3,16.4,48.4,89.2,86.5,15.2,95.8,44.2,60.1,High,Quote flood,
+21617,Centreville,Queen Anne's County,Mid & Upper Shore,10428,3985,4157,3105,77.9,116898,483700,41.4,31.6,3.6,73.6,90.7,85.8,50.1,84.4,0,58.0,High,Quote flood,
+21619,Chester,Queen Anne's County,Mid & Upper Shore,6152,2619,3196,1968,75.1,107639,486600,47.2,33.8,1.8,68.8,94.7,77.3,26.6,84.4,0,54.1,High,Quote flood,
+21620,Chestertown,Kent County,Mid & Upper Shore,13810,5700,6373,4102,72.0,80530,347500,42.5,39.2,5.6,58.0,94.4,87.8,36.5,82.5,50.0,67.8,High,Quote flood,
+21622,Church Creek,Dorchester County,Mid & Upper Shore,420,195,383,178,91.3,68750,296300,51.5,41.5,23.6,63.1,99.7,86.1,12.5,95.8,100.0,74.4,Extreme,Check appetite,
+21623,Church Hill,Queen Anne's County,Mid & Upper Shore,2669,893,939,757,84.8,78345,391400,36.4,24.6,0.9,72.0,88.2,81.3,32.7,84.4,0,53.6,High,Quote flood,
+21624,Claiborne,Talbot County,Mid & Upper Shore,162,58,117,39,67.2,89375,345000,57.0,43.1,0.0,89.7,96.2,81.3,5.7,96.6,100.0,71.1,Extreme,Check appetite,
+21625,Cordova,Talbot County,Mid & Upper Shore,1766,610,749,518,84.9,83250,372200,43.7,31.5,3.8,78.4,89.1,88.3,30.5,96.6,0,53.8,High,Quote flood,
+21626,Crapo,Dorchester County,Mid & Upper Shore,256,86,92,67,77.9,,631900,43.7,24.4,0.0,68.6,99.9,90.9,28.2,95.8,100.0,77.8,Extreme,Check appetite,
+21627,Crocheron,Dorchester County,Mid & Upper Shore,26,15,21,15,100.0,96250,225000,72.3,100.0,0.0,66.7,99.9,90.9,28.2,95.8,100.0,77.8,Extreme,Check appetite,
+21628,Crumpton,Queen Anne's County,Mid & Upper Shore,248,127,177,127,100.0,115417,160200,49.8,22.8,0.0,90.6,92.8,76.8,23.8,84.4,0,53.0,High,Quote flood,
+21629,Denton,Caroline County,Mid & Upper Shore,10252,3688,3977,2447,66.4,73956,334200,40.0,26.5,3.5,60.1,88.3,91.9,21.9,42.4,0,58.3,High,Quote flood,
+21631,East New Market,Dorchester County,Mid & Upper Shore,2429,942,1020,804,85.4,73864,306700,48.3,37.6,1.1,78.5,94.1,93.3,13.0,95.8,0,53.9,High,Quote flood,
+21632,Federalsburg,Caroline County,Mid & Upper Shore,6436,2656,2956,1677,63.1,61316,216000,41.9,24.8,10.2,53.7,85.7,92.9,42.5,48.1,0,60.1,High,Quote flood,
+21634,Fishing Creek,Dorchester County,Mid & Upper Shore,465,161,323,161,100.0,83250,232300,38.4,59.0,10.6,53.4,99.7,84.6,7.5,95.8,100.0,73.4,Extreme,Check appetite,
+21635,Galena,Kent County,Mid & Upper Shore,2085,940,1177,769,81.8,101618,402000,50.3,41.6,0.3,76.7,89.8,87.7,28.3,82.0,0,55.0,High,Quote flood,
+21636,Goldsboro,Caroline County,Mid & Upper Shore,1097,422,433,364,86.3,73426,320000,44.0,35.1,0.0,82.0,58.2,92.1,28.9,42.4,0,48.9,Moderate,No change,
+21638,Grasonville,Queen Anne's County,Mid & Upper Shore,5420,1916,2360,1619,84.5,140086,569200,42.3,26.1,7.3,80.3,97.9,75.6,24.6,84.4,93.2,73.3,Extreme,Check appetite,
+21639,Greensboro,Caroline County,Mid & Upper Shore,4682,1743,1916,1259,72.2,62772,269400,37.7,33.0,8.8,61.3,87.9,92.0,32.7,42.4,0,59.8,High,Quote flood,
+21640,Henderson,Caroline County,Mid & Upper Shore,1163,511,531,472,92.4,53558,268500,39.9,38.0,3.5,66.3,22.9,91.3,24.4,47.4,0,35.2,Moderate,No change,
+21641,Hillsboro,Caroline County,Mid & Upper Shore,127,56,70,39,69.6,66875,254200,58.8,39.3,0.0,82.1,89.2,89.4,8.7,42.4,0,56.1,High,Quote flood,
+21643,Hurlock,Dorchester County,Mid & Upper Shore,5392,2067,2326,1683,81.4,67219,230000,39.8,36.4,7.5,63.7,89.8,88.3,20.8,95.8,0,52.6,High,Quote flood,
+21644,Ingleside,Queen Anne's County,Mid & Upper Shore,81,21,21,21,100.0,,,64.5,100.0,0.0,100.0,0.0,82.3,19.4,84.4,0,20.9,Low,No change,
+21645,Kennedyville,Kent County,Mid & Upper Shore,959,479,676,377,78.7,86118,297900,59.2,33.6,1.7,66.2,91.2,91.0,36.4,82.0,0,57.4,High,Quote flood,
+21647,Mcdaniel,Talbot County,Mid & Upper Shore,320,153,162,153,100.0,113472,634300,56.1,22.2,0.0,100.0,96.2,81.3,5.7,96.6,100.0,71.1,Extreme,Check appetite,
+21648,Madison,Dorchester County,Mid & Upper Shore,172,70,89,64,91.4,,195000,61.4,55.7,0.0,70.0,99.7,84.6,7.5,95.8,100.0,73.4,Extreme,Check appetite,
+21649,Marydel,Queen Anne's County,Mid & Upper Shore,1890,546,656,454,83.2,68542,222700,36.1,24.4,5.1,75.5,0.0,89.0,18.6,55.0,0,25.1,Low,No change,
+21650,Massey,Kent County,Mid & Upper Shore,265,75,75,75,100.0,,317300,39.0,28.0,0.0,94.7,89.8,87.7,28.3,82.0,0,55.0,High,Quote flood,
+21651,Millington,Kent County,Mid & Upper Shore,2290,884,1012,688,77.8,74063,326800,34.4,30.8,1.5,77.9,88.8,84.0,27.4,82.9,0,53.7,High,Quote flood,
+21652,Neavitt,Talbot County,Mid & Upper Shore,155,95,124,95,100.0,127930,504600,68.5,78.9,0.0,38.9,97.6,85.4,15.9,96.6,100.0,74.0,Extreme,Check appetite,
+21653,Newcomb,Talbot County,Mid & Upper Shore,84,49,49,49,100.0,,829500,72.7,87.8,0.0,38.8,96.4,83.7,15.5,96.6,100.0,73.2,Extreme,Check appetite,
+21654,Oxford,Talbot County,Mid & Upper Shore,1179,629,923,539,85.7,82772,840000,68.7,64.7,2.1,64.2,98.4,88.5,32.8,96.6,100.0,77.4,Extreme,Check appetite,
+21655,Preston,Caroline County,Mid & Upper Shore,5053,1862,1989,1565,84.0,90385,289200,42.2,32.1,3.2,70.9,93.8,89.7,17.7,42.4,0,59.2,High,Quote flood,
+21657,Queen Anne,Queen Anne's County,Mid & Upper Shore,1354,522,532,457,87.5,104940,359500,58.5,53.6,6.5,77.6,87.3,88.1,47.7,83.2,0,57.0,High,Quote flood,
+21658,Queenstown,Queen Anne's County,Mid & Upper Shore,3632,1404,1747,1272,90.6,128274,483200,53.6,35.2,1.1,82.3,94.9,88.7,52.6,84.4,6.3,61.7,High,Quote flood,
+21659,Rhodesdale,Dorchester County,Mid & Upper Shore,1601,555,650,463,83.4,73750,259900,49.9,29.7,0.5,82.2,93.4,89.8,16.1,95.8,0,53.5,High,Quote flood,
+21660,Ridgely,Caroline County,Mid & Upper Shore,4132,1457,1516,1123,77.1,80469,359300,35.6,22.5,2.7,74.3,85.3,90.0,15.5,42.4,0,56.0,High,Quote flood,
+21661,Rock Hall,Kent County,Mid & Upper Shore,2613,1311,1784,981,74.8,90492,283200,58.4,41.4,10.4,53.7,97.6,86.1,15.5,82.0,92.0,73.9,Extreme,Check appetite,
+21662,Royal Oak,Talbot County,Mid & Upper Shore,546,217,388,176,81.1,137404,1107100,46.5,30.4,0.0,69.6,96.4,83.7,15.5,96.6,100.0,73.2,Extreme,Check appetite,
+21663,Saint Michaels,Talbot County,Mid & Upper Shore,3764,1677,2204,1309,78.1,89775,650500,56.0,48.5,4.1,63.3,97.4,85.2,15.8,96.6,100.0,73.9,Extreme,Check appetite,
+21664,Secretary,Dorchester County,Mid & Upper Shore,635,217,257,152,70.0,82721,172000,34.0,30.4,3.7,58.1,94.1,93.3,13.0,95.8,0,53.9,High,Quote flood,
+21665,Sherwood,Talbot County,Mid & Upper Shore,229,109,198,109,100.0,,672600,60.4,56.9,0.0,71.6,96.2,81.3,5.7,96.6,100.0,71.1,Extreme,Check appetite,
+21666,Stevensville,Queen Anne's County,Mid & Upper Shore,14394,5555,5835,4702,84.6,123645,494300,46.0,36.9,3.8,74.6,93.8,73.6,16.2,84.4,0,51.6,High,Quote flood,
+21667,Still Pond,Kent County,Mid & Upper Shore,291,160,160,138,86.2,64122,205600,59.5,55.6,0.0,81.9,91.3,91.3,37.2,82.0,0,57.6,High,Quote flood,
+21668,Sudlersville,Queen Anne's County,Mid & Upper Shore,2011,773,803,602,77.9,78672,348400,49.4,29.0,1.0,74.1,41.9,81.1,23.7,84.4,0,36.0,Low,No change,
+21669,Taylors Island,Dorchester County,Mid & Upper Shore,160,86,167,86,100.0,116500,468000,58.3,39.5,29.1,65.1,99.7,84.6,7.5,95.8,100.0,73.4,Extreme,Check appetite,
+21671,Tilghman,Talbot County,Mid & Upper Shore,727,364,531,329,90.4,45125,294600,56.9,44.2,0.0,63.5,96.2,81.3,5.7,96.6,100.0,71.1,Extreme,Check appetite,
+21672,Toddville,Dorchester County,Mid & Upper Shore,161,72,116,72,100.0,83269,,60.6,52.8,0.0,41.7,99.9,90.9,28.2,95.8,100.0,77.8,Extreme,Check appetite,
+21673,Trappe,Talbot County,Mid & Upper Shore,2843,1203,1539,904,75.1,68194,363100,45.7,29.3,5.3,73.3,98.0,88.4,32.5,96.6,97.2,76.6,Extreme,Check appetite,
+21675,Wingate,Dorchester County,Mid & Upper Shore,38,27,101,27,100.0,,,75.1,55.6,25.9,44.4,99.9,90.9,28.2,95.8,100.0,77.8,Extreme,Check appetite,
+21676,Wittman,Talbot County,Mid & Upper Shore,439,271,353,271,100.0,,643500,69.6,64.9,6.3,64.2,96.2,81.3,5.7,96.6,100.0,71.1,Extreme,Check appetite,
+21677,Woolford,Dorchester County,Mid & Upper Shore,436,182,231,128,70.3,,328600,48.6,31.3,3.8,82.4,99.7,84.6,7.5,95.8,100.0,73.4,Extreme,Check appetite,
+21678,Worton,Kent County,Mid & Upper Shore,1658,789,987,723,91.6,71023,319000,50.6,40.6,3.7,64.4,91.3,91.3,37.2,82.0,0,57.6,High,Quote flood,
+21679,Wye Mills,Talbot County,Mid & Upper Shore,306,157,167,157,100.0,119821,521700,69.5,67.5,0.0,68.8,89.0,88.3,31.4,96.1,0,53.9,High,Quote flood,
+21701,Frederick,Frederick County,Capital Region,43048,18651,19513,12348,66.2,106577,435000,39.6,27.1,7.3,56.9,,60.1,30.6,69.3,0,19.7,Low,No change,Yes
+21702,Frederick,Frederick County,Capital Region,49605,18525,19462,12086,65.2,106983,426300,38.1,24.6,6.4,61.7,,60.8,47.5,69.3,0,22.4,Low,No change,Yes
+21703,Frederick,Frederick County,Capital Region,41960,15517,16069,10325,66.5,106334,384600,34.6,19.0,2.7,62.5,,63.1,32.7,69.3,0,20.6,Low,No change,Yes
+21704,Frederick,Frederick County,Capital Region,20006,6136,6257,5030,82.0,161063,612000,38.6,17.9,5.0,72.5,,63.8,22.1,69.3,0,19.2,Low,No change,Yes
+21705,Frederick,Frederick County,Capital Region,6,0,0,0,,,,73.5,,,,,66.5,21.5,69.3,0,19.6,Low,No change,
+21710,Adamstown,Frederick County,Capital Region,4661,1672,1773,1404,84.0,163864,591100,51.9,38.2,5.2,78.5,,73.2,51.6,69.3,0,25.5,Low,No change,
+21711,Big Pool,Washington County,Western Maryland,929,434,448,434,100.0,91250,310600,52.3,24.7,0.0,96.1,,82.5,44.1,62.1,0,26.9,Low,No change,
+21713,Boonsboro,Washington County,Western Maryland,9846,3899,4018,3258,83.6,96199,369200,45.5,34.7,4.4,76.4,,81.4,49.3,62.1,0,27.5,Low,No change,
+21714,Braddock Heights,Frederick County,Capital Region,95,45,45,45,100.0,161806,415600,58.6,55.6,0.0,64.4,,57.8,13.0,69.3,0,16.6,Low,No change,
+21715,Brownsville,Washington County,Western Maryland,20,14,14,14,100.0,,,66.5,50.0,0.0,50.0,,76.1,19.2,62.1,0,21.9,Low,No change,
+21716,Brunswick,Frederick County,Capital Region,7200,2924,3077,2488,85.1,109382,361300,38.5,22.4,4.1,62.6,,57.3,15.1,69.3,0,16.8,Low,No change,
+21717,Buckeystown,Frederick County,Capital Region,245,81,81,81,100.0,158413,430600,42.6,38.3,0.0,53.1,,77.6,65.1,69.3,0,28.4,Low,No change,
+21718,Burkittsville,Frederick County,Capital Region,134,64,70,45,70.3,93500,576400,57.6,48.4,3.1,75.0,,69.4,40.9,69.3,0,23.1,Low,No change,
+21719,Cascade,Washington County,Western Maryland,1178,494,603,423,85.6,65809,214100,39.3,33.0,3.6,60.9,,68.0,9.6,62.1,0,18.8,Low,No change,
+21722,Clear Spring,Washington County,Western Maryland,6721,2222,2356,1841,82.9,88232,312500,40.7,26.7,1.1,84.5,,82.8,52.0,62.1,0,28.2,Low,No change,
+21723,Cooksville,Howard County,Baltimore Metro,669,232,232,221,95.3,241250,1005500,48.3,10.8,0.0,95.3,0.0,70.9,34.6,88.7,0,20.5,Low,No change,
+21727,Emmitsburg,Frederick County,Capital Region,6052,1673,1808,1278,76.4,95236,331100,29.5,34.5,4.5,71.2,,67.2,39.0,69.3,0,22.4,Low,No change,
+21733,Fairplay,Washington County,Western Maryland,1275,471,480,389,82.6,109896,291800,41.2,33.1,0.0,83.7,,81.2,37.8,62.1,0,25.7,Low,No change,
+21734,Funkstown,Washington County,Western Maryland,1076,493,518,272,55.2,61392,277800,52.4,26.4,3.9,47.7,,79.8,53.9,62.1,0,27.8,Low,No change,
+21737,Glenelg,Howard County,Baltimore Metro,2474,739,739,689,93.2,250001,996400,38.8,15.0,4.5,92.7,0.0,73.3,53.0,88.7,0,23.7,Low,No change,
+21738,Glenwood,Howard County,Baltimore Metro,3696,1121,1121,1101,98.2,250001,914300,41.2,33.8,0.0,83.6,0.0,74.0,54.5,88.7,0,24.1,Low,No change,
+21740,Hagerstown,Washington County,Western Maryland,64792,25276,27339,13986,55.3,62873,262300,37.9,24.8,12.4,51.6,,77.3,31.5,62.1,0,24.0,Low,No change,
+21742,Hagerstown,Washington County,Western Maryland,34069,13231,13888,9133,69.0,86288,304800,41.7,29.8,6.0,60.8,,78.4,41.5,62.1,0,25.7,Low,No change,
+21746,Hagerstown,Washington County,Western Maryland,2361,0,0,0,,,,38.0,,,,,59.8,0.7,62.1,0,15.9,Low,No change,
+21750,Hancock,Washington County,Western Maryland,3417,1628,1818,1203,73.9,60625,232500,50.1,33.0,7.8,63.0,,76.3,38.5,62.1,0,24.8,Low,No change,
+21754,Ijamsville,Frederick County,Capital Region,8156,2660,2688,2558,96.2,182188,647300,41.2,27.5,3.7,82.5,,62.4,23.1,69.3,0,19.0,Low,No change,
+21755,Jefferson,Frederick County,Capital Region,5909,2136,2231,1850,86.6,137417,529600,43.2,27.9,2.7,84.7,,68.2,34.0,69.3,0,21.8,Low,No change,
+21756,Keedysville,Washington County,Western Maryland,3640,1394,1496,1362,97.7,101786,413200,41.8,26.4,0.0,82.9,,78.7,40.2,62.1,0,25.6,Low,No change,
+21757,Keymar,Carroll County,Baltimore Metro,2671,1018,1072,839,82.4,100500,466100,37.8,31.6,2.6,79.7,,71.6,36.8,71.3,0,22.7,Low,No change,
+21758,Knoxville,Frederick County,Capital Region,4409,1588,1626,1341,84.4,111528,424600,39.0,25.3,1.9,79.8,,64.8,23.9,67.6,0,19.8,Low,No change,
+21762,Libertytown,Frederick County,Capital Region,139,50,50,50,100.0,,,33.6,0.0,0.0,100.0,,71.3,38.5,69.3,0,23.1,Low,No change,
+21766,Little Orleans,Allegany County,Western Maryland,854,342,514,238,69.6,62054,221100,30.8,21.1,2.3,93.6,,66.5,58.6,73.4,0,24.8,Low,No change,
+21767,Maugansville,Washington County,Western Maryland,1031,541,541,313,57.9,57940,258700,51.4,54.0,13.9,40.7,,78.0,27.6,62.1,0,23.5,Low,No change,
+21769,Middletown,Frederick County,Capital Region,11965,4146,4331,3608,87.0,151563,507000,43.3,27.7,1.6,82.5,,61.0,23.1,69.3,0,18.7,Low,No change,Yes
+21770,Monrovia,Frederick County,Capital Region,8751,2622,2632,2590,98.8,183571,632500,39.8,27.3,1.6,87.5,,66.8,32.5,69.3,0,21.3,Low,No change,
+21771,Mount Airy,Frederick County,Capital Region,33031,11226,11758,10554,94.0,157302,556200,40.9,25.0,1.9,83.5,0.0,66.5,29.5,73.1,0,20.4,Low,No change,Yes
+21773,Myersville,Frederick County,Capital Region,5826,1997,2235,1870,93.6,161908,544400,43.8,27.3,1.3,87.9,,58.1,21.6,69.3,0,17.9,Low,No change,
+21774,New Market,Frederick County,Capital Region,17134,5647,5766,5282,93.5,171103,541000,36.1,16.9,2.7,79.6,,58.8,17.7,69.3,0,17.5,Low,No change,Yes
+21776,New Windsor,Carroll County,Baltimore Metro,6261,2346,2378,2186,93.2,133409,461600,44.1,33.0,1.8,86.0,,71.3,44.5,73.2,0,23.6,Low,No change,
+21777,Point Of Rocks,Frederick County,Capital Region,2462,817,817,797,97.6,159708,480500,43.8,9.5,2.7,94.1,,64.6,28.5,69.3,0,20.3,Low,No change,
+21778,Rocky Ridge,Frederick County,Capital Region,745,332,332,270,81.3,76458,382100,58.4,61.4,11.4,54.2,,72.2,46.4,69.3,0,24.5,Low,No change,
+21779,Rohrersville,Washington County,Western Maryland,1311,462,486,306,66.2,,608800,41.8,18.4,6.1,85.3,,78.8,42.6,62.1,0,26.0,Low,No change,
+21780,Sabillasville,Frederick County,Capital Region,2159,781,812,570,73.0,83785,451600,41.5,21.4,4.0,87.7,,62.8,33.3,68.0,0,20.8,Low,No change,
+21781,Saint James,Washington County,Western Maryland,25,0,0,0,,,,21.9,,,,,81.5,38.9,62.1,0,25.9,Low,No change,
+21782,Sharpsburg,Washington County,Western Maryland,3704,1522,1607,1307,85.9,94130,311600,48.7,33.8,0.4,73.6,,76.1,19.5,62.1,0,21.9,Low,No change,
+21783,Smithsburg,Washington County,Western Maryland,9910,3632,3972,2969,81.7,100750,339800,42.8,27.6,1.6,82.2,,76.8,38.0,63.0,0,24.8,Low,No change,Yes
+21784,Sykesville,Carroll County,Baltimore Metro,39258,13416,13797,11711,87.3,139395,491800,38.9,26.0,2.4,76.8,0.0,62.5,22.7,74.8,0,18.4,Low,No change,Yes
+21787,Taneytown,Carroll County,Baltimore Metro,11645,4431,4632,3472,78.4,91682,355000,40.1,34.8,1.3,65.9,,70.7,36.7,73.6,0,22.3,Low,No change,
+21788,Thurmont,Frederick County,Capital Region,11654,4649,4871,3816,82.1,98856,379200,44.6,32.4,2.6,73.6,,62.8,52.5,69.3,0,23.5,Low,No change,
+21790,Tuscarora,Frederick County,Capital Region,170,35,35,0,0.0,77656,,29.5,0.0,0.0,100.0,,68.3,38.8,69.3,0,22.5,Low,No change,
+21791,Union Bridge,Frederick County,Capital Region,5340,1968,2059,1608,81.7,93015,379800,37.7,29.9,1.4,70.1,,69.7,36.5,71.6,0,22.3,Low,No change,
+21793,Walkersville,Frederick County,Capital Region,10719,3890,4010,3427,88.1,121971,459400,42.8,25.0,7.6,74.7,,64.1,40.8,69.3,0,22.0,Low,No change,Yes
+21794,West Friendship,Howard County,Baltimore Metro,2192,660,690,657,99.5,231466,999400,43.4,24.7,1.2,87.6,0.0,72.0,43.7,88.7,0,22.1,Low,No change,
+21795,Williamsport,Washington County,Western Maryland,10144,3935,4387,2676,68.0,87864,295800,41.0,31.0,3.5,63.5,,78.3,28.3,62.1,0,23.7,Low,No change,
+21797,Woodbine,Howard County,Baltimore Metro,8643,2849,2903,2612,91.7,189241,735600,45.3,27.8,0.3,94.4,0.0,71.1,38.8,82.5,0,21.8,Low,No change,
+21798,Woodsboro,Frederick County,Capital Region,2928,929,1031,737,79.3,116607,498400,41.3,23.0,2.6,76.4,,69.3,30.1,69.3,0,21.4,Low,No change,
+21801,Salisbury,Wicomico County,Lower Shore,30088,11348,12296,6601,58.2,71313,327700,36.9,32.3,10.3,59.3,79.1,89.4,20.1,68.1,1.3,52.0,Moderate,No change,
+21804,Salisbury,Wicomico County,Lower Shore,40430,15707,17049,8078,51.4,73156,243700,32.6,23.8,5.4,59.0,42.5,89.0,16.7,68.3,0,38.4,Low,No change,
+21810,Allen,Wicomico County,Lower Shore,55,21,21,21,100.0,,,69.9,100.0,0.0,100.0,98.3,96.7,60.9,68.1,100.0,86.1,Extreme,Check appetite,
+21811,Berlin,Worcester County,Lower Shore,24377,10749,15491,8955,83.3,90082,388900,54.9,47.5,6.7,64.2,92.1,89.5,16.3,86.6,40.1,61.9,High,Quote flood,
+21813,Bishopville,Worcester County,Lower Shore,2999,1297,1697,1045,80.6,121472,628000,53.2,33.0,1.6,87.4,96.4,95.1,39.4,86.6,91.0,78.2,Extreme,Check appetite,
+21814,Bivalve,Wicomico County,Lower Shore,217,126,184,126,100.0,,,62.9,51.6,0.0,64.3,98.3,96.7,60.9,68.1,100.0,86.1,Extreme,Check appetite,
+21817,Crisfield,Somerset County,Lower Shore,4417,1925,2554,1407,73.1,55720,161000,42.1,43.4,6.1,52.0,99.9,89.2,21.1,86.7,100.0,77.3,Extreme,Check appetite,
+21821,Deal Island,Somerset County,Lower Shore,797,375,679,312,83.2,60341,188200,46.0,50.7,3.2,52.0,99.7,88.8,8.3,86.7,100.0,75.2,Extreme,Check appetite,
+21822,Eden,Wicomico County,Lower Shore,2926,1108,1164,910,82.1,84479,277700,35.0,27.3,6.2,75.7,74.7,93.3,34.1,74.2,28.1,58.1,High,Quote flood,
+21824,Ewell,Somerset County,Lower Shore,264,123,180,93,75.6,90288,108500,45.8,41.5,9.8,26.0,99.7,88.8,8.3,86.7,100.0,75.2,Extreme,Check appetite,
+21826,Fruitland,Wicomico County,Lower Shore,5451,1909,2044,1259,66.0,64946,223100,33.2,23.7,2.2,53.5,44.6,89.3,17.0,68.1,0,39.2,Low,No change,
+21829,Girdletree,Worcester County,Lower Shore,396,199,227,187,94.0,71359,270900,59.5,26.6,0.0,74.9,93.8,96.0,29.2,86.6,67.5,71.2,Extreme,Check appetite,
+21830,Hebron,Wicomico County,Lower Shore,5200,1805,1880,1579,87.5,112991,282300,36.0,25.4,2.8,78.2,82.5,91.5,30.1,68.1,21.5,59.2,High,Quote flood,
+21835,Linkwood,Dorchester County,Mid & Upper Shore,312,184,184,132,71.7,47083,51100,60.8,47.8,5.4,60.9,94.1,93.3,13.2,95.8,1.4,54.3,High,Quote flood,
+21837,Mardela Springs,Wicomico County,Lower Shore,2891,1123,1179,979,87.2,62880,227400,40.8,33.8,2.8,78.2,92.1,90.7,22.0,68.1,0,56.8,High,Quote flood,
+21838,Marion Station,Somerset County,Lower Shore,1873,715,917,661,92.4,88438,202400,44.6,22.5,0.7,79.0,99.9,96.8,68.2,86.7,100.0,85.9,Extreme,Check appetite,
+21840,Nanticoke,Wicomico County,Lower Shore,576,179,328,122,68.2,,9999,41.9,68.2,0.0,100.0,98.3,96.7,60.9,68.1,100.0,86.1,Extreme,Check appetite,
+21841,Newark,Worcester County,Lower Shore,793,340,411,232,68.2,,343000,45.4,27.1,4.7,73.8,96.1,96.2,28.6,86.6,100.0,78.5,Extreme,Check appetite,
+21842,Ocean City,Worcester County,Lower Shore,11226,5751,32621,4373,76.0,79876,447700,53.4,39.7,5.6,52.5,98.9,93.0,52.6,86.6,100.0,82.5,Extreme,Check appetite,
+21849,Parsonsburg,Wicomico County,Lower Shore,3388,1402,1569,1067,76.1,71211,249200,41.7,27.6,5.3,74.3,20.6,93.1,22.2,68.1,0,32.3,Moderate,No change,
+21850,Pittsville,Wicomico County,Lower Shore,3850,1609,1693,1421,88.3,79665,234500,43.5,35.4,0.5,69.8,35.4,94.3,24.5,68.1,0,38.1,Moderate,No change,
+21851,Pocomoke City,Worcester County,Lower Shore,7297,3252,3644,2105,64.7,53162,206700,44.1,32.1,7.4,58.0,96.4,94.1,48.6,86.6,83.2,77.8,Extreme,Check appetite,
+21853,Princess Anne,Somerset County,Lower Shore,10537,3599,4806,2322,64.5,69697,208300,33.7,27.4,9.9,60.5,90.0,94.9,35.7,86.7,50.0,67.2,Extreme,Check appetite,
+21856,Quantico,Wicomico County,Lower Shore,1037,377,423,304,80.6,88045,380600,42.6,22.8,0.0,55.7,98.3,96.7,60.9,68.1,100.0,86.1,Extreme,Check appetite,
+21861,Sharptown,Wicomico County,Lower Shore,920,373,413,321,86.1,86027,192100,38.5,33.8,1.3,72.7,92.1,90.7,22.0,68.1,0,56.8,High,Quote flood,
+21862,Showell,Worcester County,Lower Shore,30,15,15,0,0.0,,,,0.0,0.0,100.0,94.3,89.1,18.6,86.6,29.0,60.8,High,Quote flood,
+21863,Snow Hill,Worcester County,Lower Shore,5281,2113,2289,1504,71.2,61975,263600,40.1,38.8,5.3,62.8,87.4,92.7,36.1,86.6,36.4,63.2,High,Quote flood,
+21864,Stockton,Worcester County,Lower Shore,606,275,311,250,90.9,82917,163500,49.9,32.4,0.0,82.2,89.6,95.4,30.3,86.6,6.0,57.5,High,Quote flood,
+21865,Tyaskin,Wicomico County,Lower Shore,320,139,218,139,100.0,83155,191000,67.6,89.9,0.0,77.0,98.3,96.7,60.9,68.1,100.0,86.1,Extreme,Check appetite,
+21866,Tylerton,Somerset County,Lower Shore,81,53,73,53,100.0,95250,177500,60.6,35.8,0.0,52.8,99.7,88.8,8.3,86.7,100.0,75.2,Extreme,Check appetite,
+21867,Upper Fairmount,Somerset County,Lower Shore,60,24,54,24,100.0,,,46.3,41.7,0.0,41.7,99.0,95.5,46.4,86.7,100.0,82.0,Extreme,Check appetite,
+21869,Vienna,Dorchester County,Mid & Upper Shore,827,308,421,262,85.1,62045,232300,40.3,46.8,1.3,65.9,95.5,89.5,19.1,95.8,25.5,59.7,Extreme,Check appetite,
+21871,Westover,Somerset County,Lower Shore,1764,814,945,688,84.5,50524,185900,60.2,56.1,8.1,59.5,99.1,95.7,48.9,86.7,100.0,82.5,Extreme,Check appetite,
+21872,Whaleyville,Worcester County,Lower Shore,661,270,286,264,97.8,117888,433300,31.5,19.3,0.0,87.8,96.7,95.9,42.4,86.6,100.0,80.7,Extreme,Check appetite,
+21874,Willards,Wicomico County,Lower Shore,1693,666,815,549,82.4,78393,236700,43.6,24.6,2.1,68.2,16.7,93.7,26.9,68.1,0,31.8,Moderate,No change,
+21875,Delmar,Wicomico County,Lower Shore,7646,3173,3446,2173,68.5,83665,234500,38.3,23.3,1.5,71.4,6.0,90.3,14.8,68.1,0,25.6,Moderate,No change,
+21890,Westover,Somerset County,Lower Shore,3289,0,0,0,,,,35.8,,,,99.0,95.5,46.4,86.7,100.0,82.0,Extreme,Check appetite,
+21901,North East,Cecil County,Mid & Upper Shore,19514,7510,8206,5491,73.1,113719,367400,38.3,21.8,4.4,66.1,50.1,74.2,40.4,48.6,0,43.6,Moderate,No change,Yes
+21902,Perry Point,Cecil County,Mid & Upper Shore,340,66,66,0,0.0,,,70.2,100.0,0.0,0.0,88.0,76.8,45.8,48.6,0,58.2,High,Quote flood,
+21903,Perryville,Cecil County,Mid & Upper Shore,5692,2383,2421,1786,74.9,78962,299300,43.1,32.2,7.4,62.8,88.5,73.3,40.8,48.6,0,56.9,High,Quote flood,
+21904,Port Deposit,Cecil County,Mid & Upper Shore,6233,2269,2622,2019,89.0,88136,333500,39.7,23.7,4.8,68.7,61.0,71.8,46.6,48.6,0,47.8,Moderate,No change,
+21911,Rising Sun,Cecil County,Mid & Upper Shore,10551,3953,4159,3184,80.5,104673,359000,41.9,25.4,3.0,74.2,5.9,74.0,41.2,48.6,0,28.2,Low,No change,Yes
+21912,Warwick,Cecil County,Mid & Upper Shore,1536,696,704,606,87.1,69868,391700,58.2,53.9,10.5,58.9,94.0,83.3,57.1,48.6,0,63.3,High,Quote flood,
+21913,Cecilton,Cecil County,Mid & Upper Shore,820,367,402,222,60.5,87813,241800,29.9,28.6,3.3,63.5,94.1,86.1,65.8,48.6,0,65.1,High,Quote flood,
+21914,Charlestown,Cecil County,Mid & Upper Shore,810,332,351,267,80.4,66806,288500,46.3,34.0,0.0,76.8,94.2,65.9,30.3,48.6,0,55.8,High,Quote flood,
+21915,Chesapeake City,Cecil County,Mid & Upper Shore,2471,1217,1618,964,79.2,95875,376500,51.9,32.9,1.7,53.6,93.9,79.9,46.1,48.6,0,60.9,High,Quote flood,
+21917,Colora,Cecil County,Mid & Upper Shore,2233,818,818,769,94.0,96750,409400,42.4,24.2,4.2,82.4,5.4,74.0,46.0,48.6,0,28.7,Low,No change,
+21918,Conowingo,Cecil County,Mid & Upper Shore,4169,1775,1815,1572,88.6,84587,324800,42.9,31.6,0.6,68.6,60.8,70.6,34.3,48.6,0,45.7,Moderate,No change,
+21919,Earleville,Cecil County,Mid & Upper Shore,3626,1450,2217,1303,89.9,106500,373200,47.7,40.8,6.4,62.1,94.1,86.1,65.8,48.6,0,65.1,High,Quote flood,
+21920,Elk Mills,Cecil County,Mid & Upper Shore,1413,436,436,285,65.4,124146,356000,36.7,20.9,5.0,90.4,0.0,70.5,22.0,48.6,0,22.5,Low,No change,
+21921,Elkton,Cecil County,Mid & Upper Shore,45527,17316,18475,12082,69.8,85775,330400,39.4,27.1,5.6,66.3,56.4,72.9,38.2,48.6,0,45.2,Moderate,No change,
+21930,Georgetown,Cecil County,Mid & Upper Shore,25,7,45,7,100.0,,,68.1,100.0,0.0,100.0,94.1,86.1,65.8,48.6,0,65.1,High,Quote flood,
