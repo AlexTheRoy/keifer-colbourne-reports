@@ -2,20 +2,132 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/Kiefer-Colbourne-Campaign-Overview-Since-Launch-11-13-26",
+      "destination": "/Kiefer-Colbourne-Campaign-Overview-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Campaign-Overview-Since-Launch-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Campaign-Overview-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Monthly-Sales-by-Source-11-13-26",
+      "destination": "/Kiefer-Colbourne-Monthly-Sales-by-Source-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Monthly-Sales-by-Source-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Monthly-Sales-by-Source-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Auto-Campaign-Performance-Since-Launch-11-13-26",
+      "destination": "/Kiefer-Colbourne-Auto-Campaign-Performance-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Auto-Campaign-Performance-Since-Launch-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Auto-Campaign-Performance-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Auto-Weekend-Campaign-Since-Launch-11-13-26",
+      "destination": "/Kiefer-Colbourne-Auto-Weekend-Campaign-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Auto-Weekend-Campaign-Since-Launch-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Auto-Weekend-Campaign-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Home-Campaign-Performance-Since-Launch-11-13-26",
+      "destination": "/Kiefer-Colbourne-Home-Campaign-Performance-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Home-Campaign-Performance-Since-Launch-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Home-Campaign-Performance-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Auto-Lead-Marketplace-Since-Launch-11-13-26",
+      "destination": "/Kiefer-Colbourne-Auto-Lead-Marketplace-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Auto-Lead-Marketplace-Since-Launch-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Auto-Lead-Marketplace-Since-Launch-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Source-ZIP-Sales-11-13-26",
+      "destination": "/Kiefer-Colbourne-Source-ZIP-Sales-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Source-ZIP-Sales-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Source-ZIP-Sales-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Producer-Pipeline-11-13-26",
+      "destination": "/Kiefer-Colbourne-Producer-Pipeline-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Producer-Pipeline-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Producer-Pipeline-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Inbound-Call-Review-11-13-26",
+      "destination": "/Kiefer-Colbourne-Inbound-Call-Review-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-Inbound-Call-Review-11-13-26.html",
+      "destination": "/Kiefer-Colbourne-Inbound-Call-Review-11-21-26",
+      "permanent": false
+    },
+    {
+      "source": "/Kiefer-Colbourne-ZIP-Sales-11-13-26.csv",
+      "destination": "/Kiefer-Colbourne-ZIP-Sales-11-21-26.csv",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
       ]
     },
     {
       "source": "/",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
       ]
     }
   ]
